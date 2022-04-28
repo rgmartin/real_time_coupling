@@ -1,0 +1,39 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\vspace {-\cftbeforechapskip }
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}{C\IeC {\'a}lculo de potencias}}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}{procedimiento \texttt {Potencias}}}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}{C\IeC {\'a}lculo est\IeC {\'a}tico}}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Important Note:}}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Yet Another Important Note:}}{3}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}{Organization}}{3}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}{Style Options}}{5}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}{Customization}}{6}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}{Issues}}{7}{section.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.7}{Future Work}}{7}{section.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.8}{Beyond a Thesis}}{7}{section.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.9}{License}}{7}{section.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{GNU General Public License:}}{7}{section.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{classichthesis Authors' note:}}{8}{section.1.9}
+\defcounter {refsection}{0}\relax 
+\vspace {\beforebibskip }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {}{Bibliograf\'{\i }a}}{9}{section*.1}

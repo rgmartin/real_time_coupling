@@ -1,0 +1,11 @@
+
+*********************************************************************
+
+   Se leyeron los datos del archivo: ENTRADA.TXT
+   Se graba la salida en el archivo: SALIDA.TXT
+
+*********************************************************************
+
+*****************************************************
+* CASO DE PRUEBA PARA EL CAREM CON XENON Y QUEMADO  *
+*************************

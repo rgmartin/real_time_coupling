@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="PumitaTester.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="4" Y="15"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\units\AlReactor.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="124"/>
+        <CursorPos X="76" Y="160"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\units\CAREMTRI.pas"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="6" Y="3351"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="3482"/>
+        <CursorPos X="7" Y="3508"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\objpas.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="16" Y="107"/>
+        <UsageCount Value="7"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="370" Column="17" TopLine="342"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="1856" Column="44" TopLine="1828"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="1857" Column="38" TopLine="1829"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="1860" Column="45" TopLine="1832"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="1861" Column="30" TopLine="1833"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="1983" Column="59" TopLine="1955"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2002" Column="62" TopLine="1974"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2003" Column="59" TopLine="1975"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2004" Column="25" TopLine="1976"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2015" Column="17" TopLine="1987"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2696" Column="23" TopLine="2668"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2709" Column="52" TopLine="2681"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2716" Column="25" TopLine="2688"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2727" Column="30" TopLine="2700"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2857" Column="27" TopLine="2829"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2870" Column="17" TopLine="2842"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2883" Column="51" TopLine="2855"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2890" Column="41" TopLine="2862"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2891" Column="51" TopLine="2863"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2895" Column="24" TopLine="2867"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2918" Column="52" TopLine="2890"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2925" Column="25" TopLine="2897"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2943" Column="49" TopLine="2915"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="3054" Column="27" TopLine="3026"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="3038" Column="44" TopLine="3029"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2732" Column="43" TopLine="2716"/>
+      </Position26>
+      <Position27>
+        <Filename Value="PumitaTester.pas"/>
+        <Caret Line="218" Column="6" TopLine="208"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="2705" Column="37" TopLine="2693"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="8" Column="51"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <Caret Line="3472" Column="25" TopLine="20"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkData"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <BreakHitCount Value="2"/>
+        <InitialEnabled Value="False"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\units\CAREMTRI.pas"/>
+        <Line Value="3373"/>
+      </Item2>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,6 @@
+Nueva versión de PUMITA en geometría hexagonal.
+Mismos llamados que para geometría triangular.
+Ahora los archivos son REACTOR_HEXA.DLL y ENTRADA_HEXA.TXT.
+
+Según Carlos Grant, el tiempo de cálculo se reduce aproximadamente 1/3.
+Se obtienen 1000 pcm más de reactividad, pero con distribución de potencia similar a triangular.

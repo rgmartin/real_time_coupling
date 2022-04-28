@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="PumitaTesterTRI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="17"/>
+        <CursorPos X="10" Y="30"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="273"/>
+        <CursorPos X="40" Y="290"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="units\interpol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="75"/>
+        <CursorPos Y="91"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="units\reactor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="189"/>
+        <CursorPos Y="213"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="119" Column="45" TopLine="97"/>
+      </Position1>
+      <Position2>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="302" Column="30" TopLine="280"/>
+      </Position2>
+      <Position3>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="157" Column="40" TopLine="147"/>
+      </Position3>
+      <Position4>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="848" Column="12" TopLine="826"/>
+      </Position4>
+      <Position5>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="903" Column="34" TopLine="881"/>
+      </Position5>
+      <Position6>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="931" Column="22" TopLine="910"/>
+      </Position6>
+      <Position7>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="948" Column="24" TopLine="927"/>
+      </Position7>
+      <Position8>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="1337" Column="37" TopLine="1316"/>
+      </Position8>
+      <Position9>
+        <Filename Value="PumitaTesterTRI.lpr"/>
+        <Caret Line="63" Column="84" TopLine="52"/>
+      </Position9>
+      <Position10>
+        <Filename Value="PumitaTesterTRI.lpr"/>
+        <Caret Line="30" Column="10" TopLine="17"/>
+      </Position10>
+      <Position11>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="524" Column="15" TopLine="519"/>
+      </Position11>
+      <Position12>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="573" Column="16" TopLine="551"/>
+      </Position12>
+      <Position13>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="842" Column="10" TopLine="820"/>
+      </Position13>
+      <Position14>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="843" Column="10" TopLine="821"/>
+      </Position14>
+      <Position15>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="844" Column="10" TopLine="822"/>
+      </Position15>
+      <Position16>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="866" Column="33" TopLine="844"/>
+      </Position16>
+      <Position17>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="867" Column="24" TopLine="845"/>
+      </Position17>
+      <Position18>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="868" Column="26" TopLine="846"/>
+      </Position18>
+      <Position19>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="2229" Column="22" TopLine="2208"/>
+      </Position19>
+      <Position20>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="2232" Column="39" TopLine="2211"/>
+      </Position20>
+      <Position21>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="2238" Column="46" TopLine="2217"/>
+      </Position21>
+      <Position22>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="2232" Column="35" TopLine="2217"/>
+      </Position22>
+      <Position23>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="2229" Column="18" TopLine="2217"/>
+      </Position23>
+      <Position24>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="868" Column="22" TopLine="855"/>
+      </Position24>
+      <Position25>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="867" Column="20" TopLine="855"/>
+      </Position25>
+      <Position26>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="866" Column="29" TopLine="855"/>
+      </Position26>
+      <Position27>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="844" Column="6" TopLine="831"/>
+      </Position27>
+      <Position28>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="843" Column="6" TopLine="831"/>
+      </Position28>
+      <Position29>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="842" Column="6" TopLine="831"/>
+      </Position29>
+      <Position30>
+        <Filename Value="units\CAREMTRI.pas"/>
+        <Caret Line="573" Column="12" TopLine="560"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="AllTables[1,1,1]"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Readln"/>
+      </Item2>
+    </Watches>
+  </Debugging>
+</CONFIG>

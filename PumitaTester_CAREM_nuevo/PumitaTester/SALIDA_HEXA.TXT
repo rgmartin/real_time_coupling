@@ -1,0 +1,2974 @@
+
+*********************************************************************
+
+   Se leyeron los datos del archivo: ENTRADA_HEXA.TXT
+   Se graba la salida en el archivo: SALIDA_HEXA.TXT
+
+*********************************************************************
+
+*****************************************************
+* CASO DE PRUEBA PARA EL CAREM CON XENÃ³N Y QUEMADO  *
+*****************************************************
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.2410
+Num Iteraciones: 214
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0020
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.561
+Pot Esp Máxima: 0.300   en el canal:  31  trozo:   3
+     KE (estático) = 0.99162
+  React (estática) = -845.1 PCM
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.1000
+Num Iteraciones: 98
+
+
+
+*****************************************************************
+Instante = 0.1000
+
+     Potencia Total = 367.9148    
+Potencia neutrónica = 361.8020
+  Potencia Residual = 6.1128
+    Factor de Forma = 2.117
+
+Derivada Logarítmica =   1169.061%
+
+Pot Esp Máxima: 0.912   en el canal:  31  trozo:   3
+       Reactividad = 581.3 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.1000
+
+     Potencia Total = 367.9148    
+Potencia neutrónica = 361.8020
+  Potencia Residual = 6.1128
+    Factor de Forma = 2.117
+
+Derivada Logarítmica =   1169.061%
+
+Pot Esp Máxima: 0.912   en el canal:  31  trozo:   3
+       Reactividad = 581.3 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.2000
+
+     Potencia Total = 417.7216    
+Potencia neutrónica = 411.4751
+  Potencia Residual = 6.2464
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =    128.474%
+
+Pot Esp Máxima: 1.035   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.749 $
+
+
+
+*****************************************************************
+Instante = 0.2000
+
+     Potencia Total = 417.7216    
+Potencia neutrónica = 411.4751
+  Potencia Residual = 6.2464
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =    128.474%
+
+Pot Esp Máxima: 1.035   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.749 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.3000
+
+     Potencia Total = 461.3249    
+Potencia neutrónica = 454.9299
+  Potencia Residual = 6.3950
+    Factor de Forma = 2.115
+
+Derivada Logarítmica =    100.311%
+
+Pot Esp Máxima: 1.143   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.3000
+
+     Potencia Total = 461.3249    
+Potencia neutrónica = 454.9299
+  Potencia Residual = 6.3950
+    Factor de Forma = 2.115
+
+Derivada Logarítmica =    100.311%
+
+Pot Esp Máxima: 1.143   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.4000
+
+     Potencia Total = 506.7698    
+Potencia neutrónica = 500.2109
+  Potencia Residual = 6.5589
+    Factor de Forma = 2.115
+
+Derivada Logarítmica =     94.816%
+
+Pot Esp Máxima: 1.255   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.4000
+
+     Potencia Total = 506.7698    
+Potencia neutrónica = 500.2109
+  Potencia Residual = 6.5589
+    Factor de Forma = 2.115
+
+Derivada Logarítmica =     94.816%
+
+Pot Esp Máxima: 1.255   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0020
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.5000
+
+     Potencia Total = 554.5307    
+Potencia neutrónica = 547.7920
+  Potencia Residual = 6.7387
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     90.804%
+
+Pot Esp Máxima: 1.373   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.5000
+
+     Potencia Total = 554.5307    
+Potencia neutrónica = 547.7920
+  Potencia Residual = 6.7387
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     90.804%
+
+Pot Esp Máxima: 1.373   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0020
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.6000
+
+     Potencia Total = 605.0198    
+Potencia neutrónica = 598.0846
+  Potencia Residual = 6.9352
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     87.781%
+
+Pot Esp Máxima: 1.498   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.6000
+
+     Potencia Total = 605.0198    
+Potencia neutrónica = 598.0846
+  Potencia Residual = 6.9352
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     87.781%
+
+Pot Esp Máxima: 1.498   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.7000
+
+     Potencia Total = 658.5624    
+Potencia neutrónica = 651.4133
+  Potencia Residual = 7.1491
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     85.360%
+
+Pot Esp Máxima: 1.630   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.7000
+
+     Potencia Total = 658.5624    
+Potencia neutrónica = 651.4133
+  Potencia Residual = 7.1491
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     85.360%
+
+Pot Esp Máxima: 1.630   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.8000
+
+     Potencia Total = 715.5007    
+Potencia neutrónica = 708.1191
+  Potencia Residual = 7.3816
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     83.420%
+
+Pot Esp Máxima: 1.770   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.8000
+
+     Potencia Total = 715.5007    
+Potencia neutrónica = 708.1191
+  Potencia Residual = 7.3816
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     83.420%
+
+Pot Esp Máxima: 1.770   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.9000
+
+     Potencia Total = 776.1772    
+Potencia neutrónica = 768.5436
+  Potencia Residual = 7.6336
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     81.840%
+
+Pot Esp Máxima: 1.920   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 0.9000
+
+     Potencia Total = 776.1772    
+Potencia neutrónica = 768.5436
+  Potencia Residual = 7.6336
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     81.840%
+
+Pot Esp Máxima: 1.920   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.0000
+
+     Potencia Total = 840.9453    
+Potencia neutrónica = 833.0389
+  Potencia Residual = 7.9064
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     80.540%
+
+Pot Esp Máxima: 2.080   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.0000
+
+     Potencia Total = 840.9453    
+Potencia neutrónica = 833.0389
+  Potencia Residual = 7.9064
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     80.540%
+
+Pot Esp Máxima: 2.080   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.1000
+
+     Potencia Total = 910.1713    
+Potencia neutrónica = 901.9700
+  Potencia Residual = 8.2014
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     79.459%
+
+Pot Esp Máxima: 2.251   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.1000
+
+     Potencia Total = 910.1713    
+Potencia neutrónica = 901.9700
+  Potencia Residual = 8.2014
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     79.459%
+
+Pot Esp Máxima: 2.251   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.2000
+
+     Potencia Total = 984.2392    
+Potencia neutrónica = 975.7192
+  Potencia Residual = 8.5200
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     78.553%
+
+Pot Esp Máxima: 2.434   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.2000
+
+     Potencia Total = 984.2392    
+Potencia neutrónica = 975.7192
+  Potencia Residual = 8.5200
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     78.553%
+
+Pot Esp Máxima: 2.434   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.3000
+
+     Potencia Total = 1063.5530    
+Potencia neutrónica = 1054.6891
+  Potencia Residual = 8.8639
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     77.787%
+
+Pot Esp Máxima: 2.630   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.3000
+
+     Potencia Total = 1063.5530    
+Potencia neutrónica = 1054.6891
+  Potencia Residual = 8.8639
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     77.787%
+
+Pot Esp Máxima: 2.630   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.4000
+
+     Potencia Total = 1148.5405    
+Potencia neutrónica = 1139.3058
+  Potencia Residual = 9.2347
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     77.135%
+
+Pot Esp Máxima: 2.840   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.4000
+
+     Potencia Total = 1148.5405    
+Potencia neutrónica = 1139.3058
+  Potencia Residual = 9.2347
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     77.135%
+
+Pot Esp Máxima: 2.840   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.5000
+
+     Potencia Total = 1239.6564    
+Potencia neutrónica = 1230.0219
+  Potencia Residual = 9.6345
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     76.575%
+
+Pot Esp Máxima: 3.065   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.5000
+
+     Potencia Total = 1239.6564    
+Potencia neutrónica = 1230.0219
+  Potencia Residual = 9.6345
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     76.575%
+
+Pot Esp Máxima: 3.065   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.6000
+
+     Potencia Total = 1337.3846    
+Potencia neutrónica = 1327.3194
+  Potencia Residual = 10.0652
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     76.093%
+
+Pot Esp Máxima: 3.306   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.6000
+
+     Potencia Total = 1337.3846    
+Potencia neutrónica = 1327.3194
+  Potencia Residual = 10.0652
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     76.093%
+
+Pot Esp Máxima: 3.306   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.7000
+
+     Potencia Total = 1442.2420    
+Potencia neutrónica = 1431.7130
+  Potencia Residual = 10.5290
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     75.674%
+
+Pot Esp Máxima: 3.565   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.7000
+
+     Potencia Total = 1442.2420    
+Potencia neutrónica = 1431.7130
+  Potencia Residual = 10.5290
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     75.674%
+
+Pot Esp Máxima: 3.565   en el canal:  31  trozo:   3
+       Reactividad = 581.5 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0020
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.8000
+
+     Potencia Total = 1554.7814    
+Potencia neutrónica = 1543.7529
+  Potencia Residual = 11.0285
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     75.309%
+
+Pot Esp Máxima: 3.843   en el canal:  31  trozo:   3
+       Reactividad = 581.4 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.8000
+
+     Potencia Total = 1554.7814    
+Potencia neutrónica = 1543.7529
+  Potencia Residual = 11.0285
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     75.309%
+
+Pot Esp Máxima: 3.843   en el canal:  31  trozo:   3
+       Reactividad = 581.4 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 1.9000
+
+     Potencia Total = 1675.5941    
+Potencia neutrónica = 1664.0280
+  Potencia Residual = 11.5661
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     74.990%
+
+Pot Esp Máxima: 4.142   en el canal:  31  trozo:   3
+       Reactividad = 581.4 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 1.9000
+
+     Potencia Total = 1675.5941    
+Potencia neutrónica = 1664.0280
+  Potencia Residual = 11.5661
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     74.990%
+
+Pot Esp Máxima: 4.142   en el canal:  31  trozo:   3
+       Reactividad = 581.4 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0060
+Num Iteraciones: 5
+
+
+
+*****************************************************************
+Instante = 2.0000
+
+     Potencia Total = 1802.4858    
+Potencia neutrónica = 1790.3423
+  Potencia Residual = 12.1435
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     73.136%
+
+Pot Esp Máxima: 4.455   en el canal:  31  trozo:   3
+       Reactividad = 581.1 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 2.0000
+
+     Potencia Total = 1802.4858    
+Potencia neutrónica = 1790.3423
+  Potencia Residual = 12.1435
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     73.136%
+
+Pot Esp Máxima: 4.455   en el canal:  31  trozo:   3
+       Reactividad = 581.1 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0010
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 2.1000
+
+     Potencia Total = 1940.5383    
+Potencia neutrónica = 1927.7741
+  Potencia Residual = 12.7643
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     73.927%
+
+Pot Esp Máxima: 4.796   en el canal:  31  trozo:   3
+       Reactividad = 581.1 PCM
+        RO/BETAEFF = 0.748 $
+
+
+
+*****************************************************************
+Instante = 2.1000
+
+     Potencia Total = 1940.5383    
+Potencia neutrónica = 1927.7741
+  Potencia Residual = 12.7643
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     73.927%
+
+Pot Esp Máxima: 4.796   en el canal:  31  trozo:   3
+       Reactividad = 581.1 PCM
+        RO/BETAEFF = 0.748 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0330
+Num Iteraciones: 32
+
+
+
+*****************************************************************
+Instante = 2.2000
+
+     Potencia Total = 2078.6144    
+Potencia neutrónica = 2065.1870
+  Potencia Residual = 13.4274
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     68.846%
+
+Pot Esp Máxima: 5.141   en el canal:  31  trozo:   3
+       Reactividad = 580.0 PCM
+        RO/BETAEFF = 0.747 $
+
+
+
+*****************************************************************
+Instante = 2.2000
+
+     Potencia Total = 2078.6144    
+Potencia neutrónica = 2065.1870
+  Potencia Residual = 13.4274
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     68.846%
+
+Pot Esp Máxima: 5.141   en el canal:  31  trozo:   3
+       Reactividad = 580.0 PCM
+        RO/BETAEFF = 0.747 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0210
+Num Iteraciones: 20
+
+
+
+*****************************************************************
+Instante = 2.3000
+
+     Potencia Total = 2215.5624    
+Potencia neutrónica = 2201.4313
+  Potencia Residual = 14.1311
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     63.875%
+
+Pot Esp Máxima: 5.481   en el canal:  31  trozo:   3
+       Reactividad = 578.1 PCM
+        RO/BETAEFF = 0.744 $
+
+
+
+*****************************************************************
+Instante = 2.3000
+
+     Potencia Total = 2215.5624    
+Potencia neutrónica = 2201.4313
+  Potencia Residual = 14.1311
+    Factor de Forma = 2.113
+
+Derivada Logarítmica =     63.875%
+
+Pot Esp Máxima: 5.481   en el canal:  31  trozo:   3
+       Reactividad = 578.1 PCM
+        RO/BETAEFF = 0.744 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0380
+Num Iteraciones: 36
+
+
+
+*****************************************************************
+Instante = 2.4000
+
+     Potencia Total = 2378.5314    
+Potencia neutrónica = 2363.6458
+  Potencia Residual = 14.8856
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     71.093%
+
+Pot Esp Máxima: 5.888   en el canal:  31  trozo:   3
+       Reactividad = 578.1 PCM
+        RO/BETAEFF = 0.744 $
+
+
+
+*****************************************************************
+Instante = 2.4000
+
+     Potencia Total = 2378.5314    
+Potencia neutrónica = 2363.6458
+  Potencia Residual = 14.8856
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     71.093%
+
+Pot Esp Máxima: 5.888   en el canal:  31  trozo:   3
+       Reactividad = 578.1 PCM
+        RO/BETAEFF = 0.744 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0180
+Num Iteraciones: 17
+
+
+
+*****************************************************************
+Instante = 2.5000
+
+     Potencia Total = 2533.5244    
+Potencia neutrónica = 2517.8384
+  Potencia Residual = 15.6860
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     63.182%
+
+Pot Esp Máxima: 6.273   en el canal:  31  trozo:   3
+       Reactividad = 576.3 PCM
+        RO/BETAEFF = 0.742 $
+
+
+
+*****************************************************************
+Instante = 2.5000
+
+     Potencia Total = 2533.5244    
+Potencia neutrónica = 2517.8384
+  Potencia Residual = 15.6860
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     63.182%
+
+Pot Esp Máxima: 6.273   en el canal:  31  trozo:   3
+       Reactividad = 576.3 PCM
+        RO/BETAEFF = 0.742 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0260
+Num Iteraciones: 26
+
+
+
+*****************************************************************
+Instante = 2.6000
+
+     Potencia Total = 2718.5315    
+Potencia neutrónica = 2701.9875
+  Potencia Residual = 16.5440
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =     70.575%
+
+Pot Esp Máxima: 6.735   en el canal:  31  trozo:   3
+       Reactividad = 576.4 PCM
+        RO/BETAEFF = 0.742 $
+
+
+
+*****************************************************************
+Instante = 2.6000
+
+     Potencia Total = 2718.5315    
+Potencia neutrónica = 2701.9875
+  Potencia Residual = 16.5440
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =     70.575%
+
+Pot Esp Máxima: 6.735   en el canal:  31  trozo:   3
+       Reactividad = 576.4 PCM
+        RO/BETAEFF = 0.742 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0190
+Num Iteraciones: 18
+
+
+
+*****************************************************************
+Instante = 2.7000
+
+     Potencia Total = 2890.9485    
+Potencia neutrónica = 2873.4958
+  Potencia Residual = 17.4527
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =     61.532%
+
+Pot Esp Máxima: 7.163   en el canal:  31  trozo:   3
+       Reactividad = 574.6 PCM
+        RO/BETAEFF = 0.740 $
+
+
+
+*****************************************************************
+Instante = 2.7000
+
+     Potencia Total = 2890.9485    
+Potencia neutrónica = 2873.4958
+  Potencia Residual = 17.4527
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =     61.532%
+
+Pot Esp Máxima: 7.163   en el canal:  31  trozo:   3
+       Reactividad = 574.6 PCM
+        RO/BETAEFF = 0.740 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 35
+
+
+
+*****************************************************************
+Instante = 2.8000
+
+     Potencia Total = 3084.5377    
+Potencia neutrónica = 3066.1180
+  Potencia Residual = 18.4197
+    Factor de Forma = 2.118
+
+Derivada Logarítmica =     64.885%
+
+Pot Esp Máxima: 7.649   en el canal:  31  trozo:   3
+       Reactividad = 573.8 PCM
+        RO/BETAEFF = 0.739 $
+
+
+
+*****************************************************************
+Instante = 2.8000
+
+     Potencia Total = 3084.5377    
+Potencia neutrónica = 3066.1180
+  Potencia Residual = 18.4197
+    Factor de Forma = 2.118
+
+Derivada Logarítmica =     64.885%
+
+Pot Esp Máxima: 7.649   en el canal:  31  trozo:   3
+       Reactividad = 573.8 PCM
+        RO/BETAEFF = 0.739 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0160
+Num Iteraciones: 15
+
+
+
+*****************************************************************
+Instante = 2.9000
+
+     Potencia Total = 3288.5292    
+Potencia neutrónica = 3269.0813
+  Potencia Residual = 19.4479
+    Factor de Forma = 2.118
+
+Derivada Logarítmica =     64.080%
+
+Pot Esp Máxima: 8.155   en el canal:  31  trozo:   3
+       Reactividad = 572.8 PCM
+        RO/BETAEFF = 0.737 $
+
+
+
+*****************************************************************
+Instante = 2.9000
+
+     Potencia Total = 3288.5292    
+Potencia neutrónica = 3269.0813
+  Potencia Residual = 19.4479
+    Factor de Forma = 2.118
+
+Derivada Logarítmica =     64.080%
+
+Pot Esp Máxima: 8.155   en el canal:  31  trozo:   3
+       Reactividad = 572.8 PCM
+        RO/BETAEFF = 0.737 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0270
+Num Iteraciones: 26
+
+
+
+*****************************************************************
+Instante = 3.0000
+
+     Potencia Total = 3521.4299    
+Potencia neutrónica = 3500.8816
+  Potencia Residual = 20.5483
+    Factor de Forma = 2.119
+
+Derivada Logarítmica =     68.497%
+
+Pot Esp Máxima: 8.738   en el canal:  31  trozo:   3
+       Reactividad = 573.0 PCM
+        RO/BETAEFF = 0.738 $
+
+
+
+*****************************************************************
+Instante = 3.0000
+
+     Potencia Total = 3521.4299    
+Potencia neutrónica = 3500.8816
+  Potencia Residual = 20.5483
+    Factor de Forma = 2.119
+
+Derivada Logarítmica =     68.497%
+
+Pot Esp Máxima: 8.738   en el canal:  31  trozo:   3
+       Reactividad = 573.0 PCM
+        RO/BETAEFF = 0.738 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0180
+Num Iteraciones: 17
+
+
+
+*****************************************************************
+Instante = 3.1000
+
+     Potencia Total = 3737.5559    
+Potencia neutrónica = 3715.8445
+  Potencia Residual = 21.7114
+    Factor de Forma = 2.119
+
+Derivada Logarítmica =     59.582%
+
+Pot Esp Máxima: 9.276   en el canal:  31  trozo:   3
+       Reactividad = 571.2 PCM
+        RO/BETAEFF = 0.735 $
+
+
+
+*****************************************************************
+Instante = 3.1000
+
+     Potencia Total = 3737.5559    
+Potencia neutrónica = 3715.8445
+  Potencia Residual = 21.7114
+    Factor de Forma = 2.119
+
+Derivada Logarítmica =     59.582%
+
+Pot Esp Máxima: 9.276   en el canal:  31  trozo:   3
+       Reactividad = 571.2 PCM
+        RO/BETAEFF = 0.735 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 3.2000
+
+     Potencia Total = 3980.0888    
+Potencia neutrónica = 3957.1416
+  Potencia Residual = 22.9471
+    Factor de Forma = 2.120
+
+Derivada Logarítmica =     62.907%
+
+Pot Esp Máxima: 9.881   en el canal:  31  trozo:   3
+       Reactividad = 570.4 PCM
+        RO/BETAEFF = 0.734 $
+
+
+
+*****************************************************************
+Instante = 3.2000
+
+     Potencia Total = 3980.0888    
+Potencia neutrónica = 3957.1416
+  Potencia Residual = 22.9471
+    Factor de Forma = 2.120
+
+Derivada Logarítmica =     62.907%
+
+Pot Esp Máxima: 9.881   en el canal:  31  trozo:   3
+       Reactividad = 570.4 PCM
+        RO/BETAEFF = 0.734 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 3.3000
+
+     Potencia Total = 4252.3869    
+Potencia neutrónica = 4228.1206
+  Potencia Residual = 24.2662
+    Factor de Forma = 2.122
+
+Derivada Logarítmica =     66.236%
+
+Pot Esp Máxima: 10.566   en el canal:  31  trozo:   3
+       Reactividad = 570.4 PCM
+        RO/BETAEFF = 0.734 $
+
+
+
+*****************************************************************
+Instante = 3.3000
+
+     Potencia Total = 4252.3869    
+Potencia neutrónica = 4228.1206
+  Potencia Residual = 24.2662
+    Factor de Forma = 2.122
+
+Derivada Logarítmica =     66.236%
+
+Pot Esp Máxima: 10.566   en el canal:  31  trozo:   3
+       Reactividad = 570.4 PCM
+        RO/BETAEFF = 0.734 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0150
+Num Iteraciones: 14
+
+
+
+*****************************************************************
+Instante = 3.4000
+
+     Potencia Total = 4508.9349    
+Potencia neutrónica = 4483.2753
+  Potencia Residual = 25.6597
+    Factor de Forma = 2.122
+
+Derivada Logarítmica =     58.586%
+
+Pot Esp Máxima: 11.204   en el canal:  31  trozo:   3
+       Reactividad = 568.7 PCM
+        RO/BETAEFF = 0.732 $
+
+
+
+*****************************************************************
+Instante = 3.4000
+
+     Potencia Total = 4508.9349    
+Potencia neutrónica = 4483.2753
+  Potencia Residual = 25.6597
+    Factor de Forma = 2.122
+
+Derivada Logarítmica =     58.586%
+
+Pot Esp Máxima: 11.204   en el canal:  31  trozo:   3
+       Reactividad = 568.7 PCM
+        RO/BETAEFF = 0.732 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0340
+Num Iteraciones: 32
+
+
+
+*****************************************************************
+Instante = 3.5000
+
+     Potencia Total = 4795.4636    
+Potencia neutrónica = 4768.3252
+  Potencia Residual = 27.1384
+    Factor de Forma = 2.123
+
+Derivada Logarítmica =     61.632%
+
+Pot Esp Máxima: 11.920   en el canal:  31  trozo:   3
+       Reactividad = 568.0 PCM
+        RO/BETAEFF = 0.731 $
+
+
+
+*****************************************************************
+Instante = 3.5000
+
+     Potencia Total = 4795.4636    
+Potencia neutrónica = 4768.3252
+  Potencia Residual = 27.1384
+    Factor de Forma = 2.123
+
+Derivada Logarítmica =     61.632%
+
+Pot Esp Máxima: 11.920   en el canal:  31  trozo:   3
+       Reactividad = 568.0 PCM
+        RO/BETAEFF = 0.731 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 3.6000
+
+     Potencia Total = 5116.8087    
+Potencia neutrónica = 5088.0937
+  Potencia Residual = 28.7150
+    Factor de Forma = 2.124
+
+Derivada Logarítmica =     64.909%
+
+Pot Esp Máxima: 12.728   en el canal:  31  trozo:   3
+       Reactividad = 568.0 PCM
+        RO/BETAEFF = 0.731 $
+
+
+
+*****************************************************************
+Instante = 3.6000
+
+     Potencia Total = 5116.8087    
+Potencia neutrónica = 5088.0937
+  Potencia Residual = 28.7150
+    Factor de Forma = 2.124
+
+Derivada Logarítmica =     64.909%
+
+Pot Esp Máxima: 12.728   en el canal:  31  trozo:   3
+       Reactividad = 568.0 PCM
+        RO/BETAEFF = 0.731 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0140
+Num Iteraciones: 14
+
+
+
+*****************************************************************
+Instante = 3.7000
+
+     Potencia Total = 5419.0726    
+Potencia neutrónica = 5388.6940
+  Potencia Residual = 30.3786
+    Factor de Forma = 2.125
+
+Derivada Logarítmica =     57.391%
+
+Pot Esp Máxima: 13.482   en el canal:  31  trozo:   3
+       Reactividad = 566.3 PCM
+        RO/BETAEFF = 0.729 $
+
+
+
+*****************************************************************
+Instante = 3.7000
+
+     Potencia Total = 5419.0726    
+Potencia neutrónica = 5388.6940
+  Potencia Residual = 30.3786
+    Factor de Forma = 2.125
+
+Derivada Logarítmica =     57.391%
+
+Pot Esp Máxima: 13.482   en el canal:  31  trozo:   3
+       Reactividad = 566.3 PCM
+        RO/BETAEFF = 0.729 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0330
+Num Iteraciones: 32
+
+
+
+*****************************************************************
+Instante = 3.8000
+
+     Potencia Total = 5756.3099    
+Potencia neutrónica = 5724.1679
+  Potencia Residual = 32.1420
+    Factor de Forma = 2.125
+
+Derivada Logarítmica =     60.386%
+
+Pot Esp Máxima: 14.325   en el canal:  31  trozo:   3
+       Reactividad = 565.6 PCM
+        RO/BETAEFF = 0.728 $
+
+
+
+*****************************************************************
+Instante = 3.8000
+
+     Potencia Total = 5756.3099    
+Potencia neutrónica = 5724.1679
+  Potencia Residual = 32.1420
+    Factor de Forma = 2.125
+
+Derivada Logarítmica =     60.386%
+
+Pot Esp Máxima: 14.325   en el canal:  31  trozo:   3
+       Reactividad = 565.6 PCM
+        RO/BETAEFF = 0.728 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0340
+Num Iteraciones: 33
+
+
+
+*****************************************************************
+Instante = 3.9000
+
+     Potencia Total = 6111.6354    
+Potencia neutrónica = 6077.6251
+  Potencia Residual = 34.0103
+    Factor de Forma = 2.127
+
+Derivada Logarítmica =     59.923%
+
+Pot Esp Máxima: 15.221   en el canal:  31  trozo:   3
+       Reactividad = 564.8 PCM
+        RO/BETAEFF = 0.727 $
+
+
+
+*****************************************************************
+Instante = 3.9000
+
+     Potencia Total = 6111.6354    
+Potencia neutrónica = 6077.6251
+  Potencia Residual = 34.0103
+    Factor de Forma = 2.127
+
+Derivada Logarítmica =     59.923%
+
+Pot Esp Máxima: 15.221   en el canal:  31  trozo:   3
+       Reactividad = 564.8 PCM
+        RO/BETAEFF = 0.727 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0150
+Num Iteraciones: 14
+
+
+
+*****************************************************************
+Instante = 4.0000
+
+     Potencia Total = 6485.0476    
+Potencia neutrónica = 6449.0592
+  Potencia Residual = 35.9884
+    Factor de Forma = 2.127
+
+Derivada Logarítmica =     59.308%
+
+Pot Esp Máxima: 16.152   en el canal:  31  trozo:   3
+       Reactividad = 564.0 PCM
+        RO/BETAEFF = 0.726 $
+
+
+
+*****************************************************************
+Instante = 4.0000
+
+     Potencia Total = 6485.0476    
+Potencia neutrónica = 6449.0592
+  Potencia Residual = 35.9884
+    Factor de Forma = 2.127
+
+Derivada Logarítmica =     59.308%
+
+Pot Esp Máxima: 16.152   en el canal:  31  trozo:   3
+       Reactividad = 564.0 PCM
+        RO/BETAEFF = 0.726 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0320
+Num Iteraciones: 31
+
+
+
+*****************************************************************
+Instante = 4.1000
+
+     Potencia Total = 6880.9243    
+Potencia neutrónica = 6842.8413
+  Potencia Residual = 38.0830
+    Factor de Forma = 2.128
+
+Derivada Logarítmica =     59.262%
+
+Pot Esp Máxima: 17.144   en el canal:  31  trozo:   3
+       Reactividad = 563.2 PCM
+        RO/BETAEFF = 0.725 $
+
+
+
+*****************************************************************
+Instante = 4.1000
+
+     Potencia Total = 6880.9243    
+Potencia neutrónica = 6842.8413
+  Potencia Residual = 38.0830
+    Factor de Forma = 2.128
+
+Derivada Logarítmica =     59.262%
+
+Pot Esp Máxima: 17.144   en el canal:  31  trozo:   3
+       Reactividad = 563.2 PCM
+        RO/BETAEFF = 0.725 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0340
+Num Iteraciones: 33
+
+
+
+*****************************************************************
+Instante = 4.2000
+
+     Potencia Total = 7297.3960    
+Potencia neutrónica = 7257.0962
+  Potencia Residual = 40.2998
+    Factor de Forma = 2.129
+
+Derivada Logarítmica =     58.784%
+
+Pot Esp Máxima: 18.195   en el canal:  31  trozo:   3
+       Reactividad = 562.5 PCM
+        RO/BETAEFF = 0.724 $
+
+
+
+*****************************************************************
+Instante = 4.2000
+
+     Potencia Total = 7297.3960    
+Potencia neutrónica = 7257.0962
+  Potencia Residual = 40.2998
+    Factor de Forma = 2.129
+
+Derivada Logarítmica =     58.784%
+
+Pot Esp Máxima: 18.195   en el canal:  31  trozo:   3
+       Reactividad = 562.5 PCM
+        RO/BETAEFF = 0.724 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0130
+Num Iteraciones: 13
+
+
+
+*****************************************************************
+Instante = 4.3000
+
+     Potencia Total = 7733.7269    
+Potencia neutrónica = 7691.0828
+  Potencia Residual = 42.6441
+    Factor de Forma = 2.130
+
+Derivada Logarítmica =     58.071%
+
+Pot Esp Máxima: 19.285   en el canal:  31  trozo:   3
+       Reactividad = 561.6 PCM
+        RO/BETAEFF = 0.723 $
+
+
+
+*****************************************************************
+Instante = 4.3000
+
+     Potencia Total = 7733.7269    
+Potencia neutrónica = 7691.0828
+  Potencia Residual = 42.6441
+    Factor de Forma = 2.130
+
+Derivada Logarítmica =     58.071%
+
+Pot Esp Máxima: 19.285   en el canal:  31  trozo:   3
+       Reactividad = 561.6 PCM
+        RO/BETAEFF = 0.723 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0330
+Num Iteraciones: 31
+
+
+
+*****************************************************************
+Instante = 4.4000
+
+     Potencia Total = 8196.7719    
+Potencia neutrónica = 8151.6479
+  Potencia Residual = 45.1240
+    Factor de Forma = 2.130
+
+Derivada Logarítmica =     58.152%
+
+Pot Esp Máxima: 20.446   en el canal:  31  trozo:   3
+       Reactividad = 560.9 PCM
+        RO/BETAEFF = 0.722 $
+
+
+
+*****************************************************************
+Instante = 4.4000
+
+     Potencia Total = 8196.7719    
+Potencia neutrónica = 8151.6479
+  Potencia Residual = 45.1240
+    Factor de Forma = 2.130
+
+Derivada Logarítmica =     58.152%
+
+Pot Esp Máxima: 20.446   en el canal:  31  trozo:   3
+       Reactividad = 560.9 PCM
+        RO/BETAEFF = 0.722 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 33
+
+
+
+*****************************************************************
+Instante = 4.5000
+
+     Potencia Total = 8682.9436    
+Potencia neutrónica = 8635.1979
+  Potencia Residual = 47.7457
+    Factor de Forma = 2.132
+
+Derivada Logarítmica =     57.635%
+
+Pot Esp Máxima: 21.675   en el canal:  31  trozo:   3
+       Reactividad = 560.1 PCM
+        RO/BETAEFF = 0.721 $
+
+
+
+*****************************************************************
+Instante = 4.5000
+
+     Potencia Total = 8682.9436    
+Potencia neutrónica = 8635.1979
+  Potencia Residual = 47.7457
+    Factor de Forma = 2.132
+
+Derivada Logarítmica =     57.635%
+
+Pot Esp Máxima: 21.675   en el canal:  31  trozo:   3
+       Reactividad = 560.1 PCM
+        RO/BETAEFF = 0.721 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0150
+Num Iteraciones: 14
+
+
+
+*****************************************************************
+Instante = 4.6000
+
+     Potencia Total = 9192.1601    
+Potencia neutrónica = 9141.6448
+  Potencia Residual = 50.5153
+    Factor de Forma = 2.132
+
+Derivada Logarítmica =     56.984%
+
+Pot Esp Máxima: 22.948   en el canal:  31  trozo:   3
+       Reactividad = 559.3 PCM
+        RO/BETAEFF = 0.720 $
+
+
+
+*****************************************************************
+Instante = 4.6000
+
+     Potencia Total = 9192.1601    
+Potencia neutrónica = 9141.6448
+  Potencia Residual = 50.5153
+    Factor de Forma = 2.132
+
+Derivada Logarítmica =     56.984%
+
+Pot Esp Máxima: 22.948   en el canal:  31  trozo:   3
+       Reactividad = 559.3 PCM
+        RO/BETAEFF = 0.720 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 31
+
+
+
+*****************************************************************
+Instante = 4.7000
+
+     Potencia Total = 9730.7433    
+Potencia neutrónica = 9677.3018
+  Potencia Residual = 53.4416
+    Factor de Forma = 2.133
+
+Derivada Logarítmica =     56.938%
+
+Pot Esp Máxima: 24.301   en el canal:  31  trozo:   3
+       Reactividad = 558.6 PCM
+        RO/BETAEFF = 0.719 $
+
+
+
+*****************************************************************
+Instante = 4.7000
+
+     Potencia Total = 9730.7433    
+Potencia neutrónica = 9677.3018
+  Potencia Residual = 53.4416
+    Factor de Forma = 2.133
+
+Derivada Logarítmica =     56.938%
+
+Pot Esp Máxima: 24.301   en el canal:  31  trozo:   3
+       Reactividad = 558.6 PCM
+        RO/BETAEFF = 0.719 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0370
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 4.8000
+
+     Potencia Total = 10332.4897    
+Potencia neutrónica = 10275.9423
+  Potencia Residual = 56.5474
+    Factor de Forma = 2.134
+
+Derivada Logarítmica =     60.028%
+
+Pot Esp Máxima: 25.823   en el canal:  31  trozo:   3
+       Reactividad = 558.6 PCM
+        RO/BETAEFF = 0.719 $
+
+
+
+*****************************************************************
+Instante = 4.8000
+
+     Potencia Total = 10332.4897    
+Potencia neutrónica = 10275.9423
+  Potencia Residual = 56.5474
+    Factor de Forma = 2.134
+
+Derivada Logarítmica =     60.028%
+
+Pot Esp Máxima: 25.823   en el canal:  31  trozo:   3
+       Reactividad = 558.6 PCM
+        RO/BETAEFF = 0.719 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0160
+Num Iteraciones: 14
+
+
+
+*****************************************************************
+Instante = 4.9000
+
+     Potencia Total = 10892.3106    
+Potencia neutrónica = 10832.5007
+  Potencia Residual = 59.8098
+    Factor de Forma = 2.135
+
+Derivada Logarítmica =     52.740%
+
+Pot Esp Máxima: 27.225   en el canal:  31  trozo:   3
+       Reactividad = 556.9 PCM
+        RO/BETAEFF = 0.717 $
+
+
+
+*****************************************************************
+Instante = 4.9000
+
+     Potencia Total = 10892.3106    
+Potencia neutrónica = 10832.5007
+  Potencia Residual = 59.8098
+    Factor de Forma = 2.135
+
+Derivada Logarítmica =     52.740%
+
+Pot Esp Máxima: 27.225   en el canal:  31  trozo:   3
+       Reactividad = 556.9 PCM
+        RO/BETAEFF = 0.717 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 32
+
+
+
+*****************************************************************
+Instante = 5.0000
+
+     Potencia Total = 11515.8006    
+Potencia neutrónica = 11452.5485
+  Potencia Residual = 63.2522
+    Factor de Forma = 2.135
+
+Derivada Logarítmica =     55.657%
+
+Pot Esp Máxima: 28.793   en el canal:  31  trozo:   3
+       Reactividad = 556.2 PCM
+        RO/BETAEFF = 0.716 $
+
+
+
+*****************************************************************
+Instante = 5.0000
+
+     Potencia Total = 11515.8006    
+Potencia neutrónica = 11452.5485
+  Potencia Residual = 63.2522
+    Factor de Forma = 2.135
+
+Derivada Logarítmica =     55.657%
+
+Pot Esp Máxima: 28.793   en el canal:  31  trozo:   3
+       Reactividad = 556.2 PCM
+        RO/BETAEFF = 0.716 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0370
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 5.1000
+
+     Potencia Total = 12212.5601    
+Potencia neutrónica = 12145.6590
+  Potencia Residual = 66.9011
+    Factor de Forma = 2.137
+
+Derivada Logarítmica =     58.767%
+
+Pot Esp Máxima: 30.558   en el canal:  31  trozo:   3
+       Reactividad = 556.2 PCM
+        RO/BETAEFF = 0.716 $
+
+
+
+*****************************************************************
+Instante = 5.1000
+
+     Potencia Total = 12212.5601    
+Potencia neutrónica = 12145.6590
+  Potencia Residual = 66.9011
+    Factor de Forma = 2.137
+
+Derivada Logarítmica =     58.767%
+
+Pot Esp Máxima: 30.558   en el canal:  31  trozo:   3
+       Reactividad = 556.2 PCM
+        RO/BETAEFF = 0.716 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0170
+Num Iteraciones: 16
+
+
+
+*****************************************************************
+Instante = 5.2000
+
+     Potencia Total = 12858.2635    
+Potencia neutrónica = 12787.5345
+  Potencia Residual = 70.7290
+    Factor de Forma = 2.137
+
+Derivada Logarítmica =     51.495%
+
+Pot Esp Máxima: 32.178   en el canal:  31  trozo:   3
+       Reactividad = 554.5 PCM
+        RO/BETAEFF = 0.714 $
+
+
+
+*****************************************************************
+Instante = 5.2000
+
+     Potencia Total = 12858.2635    
+Potencia neutrónica = 12787.5345
+  Potencia Residual = 70.7290
+    Factor de Forma = 2.137
+
+Derivada Logarítmica =     51.495%
+
+Pot Esp Máxima: 32.178   en el canal:  31  trozo:   3
+       Reactividad = 554.5 PCM
+        RO/BETAEFF = 0.714 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0370
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 5.3000
+
+     Potencia Total = 13575.8668    
+Potencia neutrónica = 13501.1047
+  Potencia Residual = 74.7621
+    Factor de Forma = 2.138
+
+Derivada Logarítmica =     54.299%
+
+Pot Esp Máxima: 33.987   en el canal:  31  trozo:   3
+       Reactividad = 553.7 PCM
+        RO/BETAEFF = 0.713 $
+
+
+
+*****************************************************************
+Instante = 5.3000
+
+     Potencia Total = 13575.8668    
+Potencia neutrónica = 13501.1047
+  Potencia Residual = 74.7621
+    Factor de Forma = 2.138
+
+Derivada Logarítmica =     54.299%
+
+Pot Esp Máxima: 33.987   en el canal:  31  trozo:   3
+       Reactividad = 553.7 PCM
+        RO/BETAEFF = 0.713 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0380
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 5.4000
+
+     Potencia Total = 14376.8170    
+Potencia neutrónica = 14297.7863
+  Potencia Residual = 79.0307
+    Factor de Forma = 2.140
+
+Derivada Logarítmica =     57.343%
+
+Pot Esp Máxima: 36.020   en el canal:  31  trozo:   3
+       Reactividad = 553.7 PCM
+        RO/BETAEFF = 0.713 $
+
+
+
+*****************************************************************
+Instante = 5.4000
+
+     Potencia Total = 14376.8170    
+Potencia neutrónica = 14297.7863
+  Potencia Residual = 79.0307
+    Factor de Forma = 2.140
+
+Derivada Logarítmica =     57.343%
+
+Pot Esp Máxima: 36.020   en el canal:  31  trozo:   3
+       Reactividad = 553.7 PCM
+        RO/BETAEFF = 0.713 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0210
+Num Iteraciones: 19
+
+
+
+*****************************************************************
+Instante = 5.5000
+
+     Potencia Total = 15113.5740    
+Potencia neutrónica = 15030.0731
+  Potencia Residual = 83.5009
+    Factor de Forma = 2.140
+
+Derivada Logarítmica =     49.946%
+
+Pot Esp Máxima: 37.872   en el canal:  31  trozo:   3
+       Reactividad = 551.8 PCM
+        RO/BETAEFF = 0.710 $
+
+
+
+*****************************************************************
+Instante = 5.5000
+
+     Potencia Total = 15113.5740    
+Potencia neutrónica = 15030.0731
+  Potencia Residual = 83.5009
+    Factor de Forma = 2.140
+
+Derivada Logarítmica =     49.946%
+
+Pot Esp Máxima: 37.872   en el canal:  31  trozo:   3
+       Reactividad = 551.8 PCM
+        RO/BETAEFF = 0.710 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0400
+Num Iteraciones: 37
+
+
+
+*****************************************************************
+Instante = 5.6000
+
+     Potencia Total = 15984.9459    
+Potencia neutrónica = 15896.7207
+  Potencia Residual = 88.2252
+    Factor de Forma = 2.142
+
+Derivada Logarítmica =     56.070%
+
+Pot Esp Máxima: 40.088   en el canal:  31  trozo:   3
+       Reactividad = 551.7 PCM
+        RO/BETAEFF = 0.710 $
+
+
+
+*****************************************************************
+Instante = 5.6000
+
+     Potencia Total = 15984.9459    
+Potencia neutrónica = 15896.7207
+  Potencia Residual = 88.2252
+    Factor de Forma = 2.142
+
+Derivada Logarítmica =     56.070%
+
+Pot Esp Máxima: 40.088   en el canal:  31  trozo:   3
+       Reactividad = 551.7 PCM
+        RO/BETAEFF = 0.710 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0250
+Num Iteraciones: 23
+
+
+
+*****************************************************************
+Instante = 5.7000
+
+     Potencia Total = 16782.8621    
+Potencia neutrónica = 16689.6969
+  Potencia Residual = 93.1652
+    Factor de Forma = 2.142
+
+Derivada Logarítmica =     48.679%
+
+Pot Esp Máxima: 42.098   en el canal:  31  trozo:   3
+       Reactividad = 549.8 PCM
+        RO/BETAEFF = 0.708 $
+
+
+
+*****************************************************************
+Instante = 5.7000
+
+     Potencia Total = 16782.8621    
+Potencia neutrónica = 16689.6969
+  Potencia Residual = 93.1652
+    Factor de Forma = 2.142
+
+Derivada Logarítmica =     48.679%
+
+Pot Esp Máxima: 42.098   en el canal:  31  trozo:   3
+       Reactividad = 549.8 PCM
+        RO/BETAEFF = 0.708 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0410
+Num Iteraciones: 37
+
+
+
+*****************************************************************
+Instante = 5.8000
+
+     Potencia Total = 17722.9777    
+Potencia neutrónica = 17624.6014
+  Potencia Residual = 98.3763
+    Factor de Forma = 2.144
+
+Derivada Logarítmica =     54.519%
+
+Pot Esp Máxima: 44.496   en el canal:  31  trozo:   3
+       Reactividad = 549.6 PCM
+        RO/BETAEFF = 0.707 $
+
+
+
+*****************************************************************
+Instante = 5.8000
+
+     Potencia Total = 17722.9777    
+Potencia neutrónica = 17624.6014
+  Potencia Residual = 98.3763
+    Factor de Forma = 2.144
+
+Derivada Logarítmica =     54.519%
+
+Pot Esp Máxima: 44.496   en el canal:  31  trozo:   3
+       Reactividad = 549.6 PCM
+        RO/BETAEFF = 0.707 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0380
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 5.9000
+
+     Potencia Total = 18559.5550    
+Potencia neutrónica = 18455.7484
+  Potencia Residual = 103.8066
+    Factor de Forma = 2.145
+
+Derivada Logarítmica =     46.087%
+
+Pot Esp Máxima: 46.614   en el canal:  31  trozo:   3
+       Reactividad = 547.3 PCM
+        RO/BETAEFF = 0.704 $
+
+
+
+*****************************************************************
+Instante = 5.9000
+
+     Potencia Total = 18559.5550    
+Potencia neutrónica = 18455.7484
+  Potencia Residual = 103.8066
+    Factor de Forma = 2.145
+
+Derivada Logarítmica =     46.087%
+
+Pot Esp Máxima: 46.614   en el canal:  31  trozo:   3
+       Reactividad = 547.3 PCM
+        RO/BETAEFF = 0.704 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0440
+Num Iteraciones: 39
+
+
+
+*****************************************************************
+Instante = 6.0000
+
+     Potencia Total = 19496.1125    
+Potencia neutrónica = 19386.6191
+  Potencia Residual = 109.4934
+    Factor de Forma = 2.148
+
+Derivada Logarítmica =     49.245%
+
+Pot Esp Máxima: 49.040   en el canal:  31  trozo:   3
+       Reactividad = 546.0 PCM
+        RO/BETAEFF = 0.703 $
+
+
+
+*****************************************************************
+Instante = 6.0000
+
+     Potencia Total = 19496.1125    
+Potencia neutrónica = 19386.6191
+  Potencia Residual = 109.4934
+    Factor de Forma = 2.148
+
+Derivada Logarítmica =     49.245%
+
+Pot Esp Máxima: 49.040   en el canal:  31  trozo:   3
+       Reactividad = 546.0 PCM
+        RO/BETAEFF = 0.703 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0380
+Num Iteraciones: 33
+
+
+
+*****************************************************************
+Instante = 6.1000
+
+     Potencia Total = 20403.1668    
+Potencia neutrónica = 20287.7496
+  Potencia Residual = 115.4171
+    Factor de Forma = 2.150
+
+Derivada Logarítmica =     45.463%
+
+Pot Esp Máxima: 51.370   en el canal:  31  trozo:   3
+       Reactividad = 544.0 PCM
+        RO/BETAEFF = 0.700 $
+
+
+
+*****************************************************************
+Instante = 6.1000
+
+     Potencia Total = 20403.1668    
+Potencia neutrónica = 20287.7496
+  Potencia Residual = 115.4171
+    Factor de Forma = 2.150
+
+Derivada Logarítmica =     45.463%
+
+Pot Esp Máxima: 51.370   en el canal:  31  trozo:   3
+       Reactividad = 544.0 PCM
+        RO/BETAEFF = 0.700 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0370
+Num Iteraciones: 35
+
+
+
+*****************************************************************
+Instante = 6.2000
+
+     Potencia Total = 21288.6303    
+Potencia neutrónica = 21167.0680
+  Potencia Residual = 121.5623
+    Factor de Forma = 2.151
+
+Derivada Logarítmica =     42.445%
+
+Pot Esp Máxima: 53.620   en el canal:  31  trozo:   3
+       Reactividad = 541.4 PCM
+        RO/BETAEFF = 0.697 $
+
+
+
+*****************************************************************
+Instante = 6.2000
+
+     Potencia Total = 21288.6303    
+Potencia neutrónica = 21167.0680
+  Potencia Residual = 121.5623
+    Factor de Forma = 2.151
+
+Derivada Logarítmica =     42.445%
+
+Pot Esp Máxima: 53.620   en el canal:  31  trozo:   3
+       Reactividad = 541.4 PCM
+        RO/BETAEFF = 0.697 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0270
+Num Iteraciones: 24
+
+
+
+*****************************************************************
+Instante = 6.3000
+
+     Potencia Total = 22323.4296    
+Potencia neutrónica = 22195.4423
+  Potencia Residual = 127.9873
+    Factor de Forma = 2.153
+
+Derivada Logarítmica =     47.460%
+
+Pot Esp Máxima: 56.276   en el canal:  31  trozo:   3
+       Reactividad = 540.4 PCM
+        RO/BETAEFF = 0.696 $
+
+
+
+*****************************************************************
+Instante = 6.3000
+
+     Potencia Total = 22323.4296    
+Potencia neutrónica = 22195.4423
+  Potencia Residual = 127.9873
+    Factor de Forma = 2.153
+
+Derivada Logarítmica =     47.460%
+
+Pot Esp Máxima: 56.276   en el canal:  31  trozo:   3
+       Reactividad = 540.4 PCM
+        RO/BETAEFF = 0.696 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 31
+
+
+
+*****************************************************************
+Instante = 6.4000
+
+     Potencia Total = 23404.7591    
+Potencia neutrónica = 23270.0542
+  Potencia Residual = 134.7049
+    Factor de Forma = 2.155
+
+Derivada Logarítmica =     47.309%
+
+Pot Esp Máxima: 59.057   en el canal:  31  trozo:   3
+       Reactividad = 539.4 PCM
+        RO/BETAEFF = 0.694 $
+
+
+
+*****************************************************************
+Instante = 6.4000
+
+     Potencia Total = 23404.7591    
+Potencia neutrónica = 23270.0542
+  Potencia Residual = 134.7049
+    Factor de Forma = 2.155
+
+Derivada Logarítmica =     47.309%
+
+Pot Esp Máxima: 59.057   en el canal:  31  trozo:   3
+       Reactividad = 539.4 PCM
+        RO/BETAEFF = 0.694 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0360
+Num Iteraciones: 34
+
+
+
+*****************************************************************
+Instante = 6.5000
+
+     Potencia Total = 24387.4452    
+Potencia neutrónica = 24245.7805
+  Potencia Residual = 141.6647
+    Factor de Forma = 2.156
+
+Derivada Logarítmica =     41.090%
+
+Pot Esp Máxima: 61.559   en el canal:  31  trozo:   3
+       Reactividad = 536.8 PCM
+        RO/BETAEFF = 0.691 $
+
+
+
+*****************************************************************
+Instante = 6.5000
+
+     Potencia Total = 24387.4452    
+Potencia neutrónica = 24245.7805
+  Potencia Residual = 141.6647
+    Factor de Forma = 2.156
+
+Derivada Logarítmica =     41.090%
+
+Pot Esp Máxima: 61.559   en el canal:  31  trozo:   3
+       Reactividad = 536.8 PCM
+        RO/BETAEFF = 0.691 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0250
+Num Iteraciones: 24
+
+
+
+*****************************************************************
+Instante = 6.6000
+
+     Potencia Total = 25533.7545    
+Potencia neutrónica = 25384.8236
+  Potencia Residual = 148.9309
+    Factor de Forma = 2.158
+
+Derivada Logarítmica =     45.928%
+
+Pot Esp Máxima: 64.508   en el canal:  31  trozo:   3
+       Reactividad = 535.9 PCM
+        RO/BETAEFF = 0.690 $
+
+
+
+*****************************************************************
+Instante = 6.6000
+
+     Potencia Total = 25533.7545    
+Potencia neutrónica = 25384.8236
+  Potencia Residual = 148.9309
+    Factor de Forma = 2.158
+
+Derivada Logarítmica =     45.928%
+
+Pot Esp Máxima: 64.508   en el canal:  31  trozo:   3
+       Reactividad = 535.9 PCM
+        RO/BETAEFF = 0.690 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0330
+Num Iteraciones: 31
+
+
+
+*****************************************************************
+Instante = 6.7000
+
+     Potencia Total = 26730.2990    
+Potencia neutrónica = 26573.7820
+  Potencia Residual = 156.5170
+    Factor de Forma = 2.159
+
+Derivada Logarítmica =     45.802%
+
+Pot Esp Máxima: 67.591   en el canal:  31  trozo:   3
+       Reactividad = 534.9 PCM
+        RO/BETAEFF = 0.688 $
+
+
+
+*****************************************************************
+Instante = 6.7000
+
+     Potencia Total = 26730.2990    
+Potencia neutrónica = 26573.7820
+  Potencia Residual = 156.5170
+    Factor de Forma = 2.159
+
+Derivada Logarítmica =     45.802%
+
+Pot Esp Máxima: 67.591   en el canal:  31  trozo:   3
+       Reactividad = 534.9 PCM
+        RO/BETAEFF = 0.688 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0350
+Num Iteraciones: 33
+
+
+
+*****************************************************************
+Instante = 6.8000
+
+     Potencia Total = 27816.7685    
+Potencia neutrónica = 27652.4014
+  Potencia Residual = 164.3671
+    Factor de Forma = 2.160
+
+Derivada Logarítmica =     39.802%
+
+Pot Esp Máxima: 70.364   en el canal:  31  trozo:   3
+       Reactividad = 532.4 PCM
+        RO/BETAEFF = 0.685 $
+
+
+
+*****************************************************************
+Instante = 6.8000
+
+     Potencia Total = 27816.7685    
+Potencia neutrónica = 27652.4014
+  Potencia Residual = 164.3671
+    Factor de Forma = 2.160
+
+Derivada Logarítmica =     39.802%
+
+Pot Esp Máxima: 70.364   en el canal:  31  trozo:   3
+       Reactividad = 532.4 PCM
+        RO/BETAEFF = 0.685 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0250
+Num Iteraciones: 23
+
+
+
+*****************************************************************
+Instante = 6.9000
+
+     Potencia Total = 29085.4537    
+Potencia neutrónica = 28912.9009
+  Potencia Residual = 172.5528
+    Factor de Forma = 2.162
+
+Derivada Logarítmica =     44.594%
+
+Pot Esp Máxima: 73.634   en el canal:  31  trozo:   3
+       Reactividad = 531.5 PCM
+        RO/BETAEFF = 0.684 $
+
+
+
+*****************************************************************
+Instante = 6.9000
+
+     Potencia Total = 29085.4537    
+Potencia neutrónica = 28912.9009
+  Potencia Residual = 172.5528
+    Factor de Forma = 2.162
+
+Derivada Logarítmica =     44.594%
+
+Pot Esp Máxima: 73.634   en el canal:  31  trozo:   3
+       Reactividad = 531.5 PCM
+        RO/BETAEFF = 0.684 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0310
+Num Iteraciones: 30
+
+
+
+*****************************************************************
+Instante = 7.0000
+
+     Potencia Total = 30406.5087    
+Potencia neutrónica = 30225.4209
+  Potencia Residual = 181.0879
+    Factor de Forma = 2.164
+
+Derivada Logarítmica =     44.423%
+
+Pot Esp Máxima: 77.045   en el canal:  31  trozo:   3
+       Reactividad = 530.6 PCM
+        RO/BETAEFF = 0.683 $
+
+
+
+*****************************************************************
+Instante = 7.0000
+
+     Potencia Total = 30406.5087    
+Potencia neutrónica = 30225.4209
+  Potencia Residual = 181.0879
+    Factor de Forma = 2.164
+
+Derivada Logarítmica =     44.423%
+
+Pot Esp Máxima: 77.045   en el canal:  31  trozo:   3
+       Reactividad = 530.6 PCM
+        RO/BETAEFF = 0.683 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0340
+Num Iteraciones: 32
+
+
+
+*****************************************************************
+Instante = 7.1000
+
+     Potencia Total = 31601.9007    
+Potencia neutrónica = 31411.9920
+  Potencia Residual = 189.9088
+    Factor de Forma = 2.165
+
+Derivada Logarítmica =     38.521%
+
+Pot Esp Máxima: 80.101   en el canal:  31  trozo:   3
+       Reactividad = 528.2 PCM
+        RO/BETAEFF = 0.680 $
+
+
+
+*****************************************************************
+Instante = 7.1000
+
+     Potencia Total = 31601.9007    
+Potencia neutrónica = 31411.9920
+  Potencia Residual = 189.9088
+    Factor de Forma = 2.165
+
+Derivada Logarítmica =     38.521%
+
+Pot Esp Máxima: 80.101   en el canal:  31  trozo:   3
+       Reactividad = 528.2 PCM
+        RO/BETAEFF = 0.680 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0240
+Num Iteraciones: 23
+
+
+
+*****************************************************************
+Instante = 7.2000
+
+     Potencia Total = 32999.9093    
+Potencia neutrónica = 32800.8138
+  Potencia Residual = 199.0955
+    Factor de Forma = 2.166
+
+Derivada Logarítmica =     43.282%
+
+Pot Esp Máxima: 83.712   en el canal:  31  trozo:   3
+       Reactividad = 527.3 PCM
+        RO/BETAEFF = 0.679 $
+
+
+
+*****************************************************************
+Instante = 7.2000
+
+     Potencia Total = 32999.9093    
+Potencia neutrónica = 32800.8138
+  Potencia Residual = 199.0955
+    Factor de Forma = 2.166
+
+Derivada Logarítmica =     43.282%
+
+Pot Esp Máxima: 83.712   en el canal:  31  trozo:   3
+       Reactividad = 527.3 PCM
+        RO/BETAEFF = 0.679 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0330
+Num Iteraciones: 30
+
+
+
+*****************************************************************
+Instante = 7.3000
+
+     Potencia Total = 34453.6407    
+Potencia neutrónica = 34244.9784
+  Potencia Residual = 208.6623
+    Factor de Forma = 2.168
+
+Derivada Logarítmica =     43.114%
+
+Pot Esp Máxima: 87.474   en el canal:  31  trozo:   3
+       Reactividad = 526.4 PCM
+        RO/BETAEFF = 0.678 $
+
+
+
+*****************************************************************
+Instante = 7.3000
+
+     Potencia Total = 34453.6407    
+Potencia neutrónica = 34244.9784
+  Potencia Residual = 208.6623
+    Factor de Forma = 2.168
+
+Derivada Logarítmica =     43.114%
+
+Pot Esp Máxima: 87.474   en el canal:  31  trozo:   3
+       Reactividad = 526.4 PCM
+        RO/BETAEFF = 0.678 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0330
+Num Iteraciones: 31
+
+
+
+*****************************************************************
+Instante = 7.4000
+
+     Potencia Total = 35766.8906    
+Potencia neutrónica = 35548.3520
+  Potencia Residual = 218.5386
+    Factor de Forma = 2.169
+
+Derivada Logarítmica =     37.368%
+
+Pot Esp Máxima: 90.838   en el canal:  31  trozo:   3
+       Reactividad = 524.0 PCM
+        RO/BETAEFF = 0.675 $
+
+
+
+*****************************************************************
+Instante = 7.4000
+
+     Potencia Total = 35766.8906    
+Potencia neutrónica = 35548.3520
+  Potencia Residual = 218.5386
+    Factor de Forma = 2.169
+
+Derivada Logarítmica =     37.368%
+
+Pot Esp Máxima: 90.838   en el canal:  31  trozo:   3
+       Reactividad = 524.0 PCM
+        RO/BETAEFF = 0.675 $
+
+
+Método Adiabático:
+Tiempo para iteraciones: 0.0240
+Num Iteraciones: 22
+
+
+
+*****************************************************************
+Instante = 7.5000
+
+     Potencia Total = 37303.3663    
+Potencia neutrónica = 37074.5536
+  Potencia Residual = 228.8126
+    Factor de Forma = 2.171
+
+Derivada Logarítmica =     42.055%
+
+Pot Esp Máxima: 94.813   en el canal:  31  trozo:   3
+       Reactividad = 523.2 PCM
+        RO/BETAEFF = 0.673 $
+
+
+
+*****************************************************************
+Instante = 7.5000
+
+     Potencia Total = 37303.3663    
+Potencia neutrónica = 37074.5536
+  Potencia Residual = 228.8126
+    Factor de Forma = 2.171
+
+Derivada Logarítmica =     42

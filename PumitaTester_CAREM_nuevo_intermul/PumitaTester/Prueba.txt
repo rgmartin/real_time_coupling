@@ -1,0 +1,9 @@
+Inicializar
+ReadData
+Quemado de ReadData: 1.3019700000000001E+004
+StaticCalculation  Quemado: 1.3019700000000001E+004
+StaticCalculation  Quemado: 1.3019700000000001E+004
+StaticCalculation  Quemado: 1.3019700000000001E+004
+StaticCalculation  Quemado: 1.3019700000000001E+004
+StaticCalculation  Quemado: 1.3019700000000001E+004
+StaticCalculation  Quemado: 1.3019700000000001E+004

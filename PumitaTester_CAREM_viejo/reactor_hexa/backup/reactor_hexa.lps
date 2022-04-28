@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="reactor_hexa.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="17" Y="7"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="CAREMHEXA.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="interpol.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\units\CAREMHEXA.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="reactor_hexa.lpr"/>
+        <Caret Line="177" Column="33" TopLine="172"/>
+      </Position1>
+      <Position2>
+        <Filename Value="reactor_hexa.lpr"/>
+        <Caret Line="175" Column="6" TopLine="172"/>
+      </Position2>
+      <Position3>
+        <Filename Value="reactor_hexa.lpr"/>
+        <Caret Line="4" Column="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="reactor_hexa.lpr"/>
+        <Caret Line="7" Column="17"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

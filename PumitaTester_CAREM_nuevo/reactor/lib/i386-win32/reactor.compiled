@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1325662673"/>
+  <Params Value=" -MObjFPC -Scghi -CX -WR -O3 -XX -l -vewnhibq -FiE:\Documentos\IB\Maestría\REPO\PUMITA\PumitaTester_CAREM_nuevo\reactor\lib\i386-win32 -FuE:\Documentos\IB\Maestría\REPO\PUMITA\PumitaTester_CAREM_nuevo\units -FuE:\Documentos\IB\Maestría\REPO\PUMITA\PumitaTester_CAREM_nuevo\reactor\ -FUE:\Documentos\IB\Maestría\REPO\PUMITA\PumitaTester_CAREM_nuevo\reactor\lib\i386-win32\ -FEE:\Documentos\IB\Maestría\REPO\PUMITA\PumitaTester_CAREM_nuevo\PumitaTester\ -oE:\Documentos\IB\Maestría\REPO\PUMITA\PumitaTester_CAREM_nuevo\PumitaTester\reactor.dll reactor.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

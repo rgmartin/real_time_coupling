@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1266910071"/>
+  <Params Value=" -MObjFPC -Scaghi -CirotR -O1 -gw2 -godwarfsets -gl -gh -Xg -gt -l -vewnhibq &quot;-FiE:\Documentos\IB\Maestría\03_EstudiosParametricos\z1PumitaTester - dynamicCalculation\lib\x86_64-win64&quot; &quot;-FuE:\Documentos\IB\Maestría\03_EstudiosParametricos\z1PumitaTester - dynamicCalculation\units&quot; &quot;-FuE:\Documentos\IB\Maestría\03_EstudiosParametricos\z1PumitaTester - dynamicCalculation\&quot; &quot;-FUE:\Documentos\IB\Maestría\03_EstudiosParametricos\z1PumitaTester - dynamicCalculation\lib\x86_64-win64\&quot; PumitaTester.lpr"/>
+</CONFIG>

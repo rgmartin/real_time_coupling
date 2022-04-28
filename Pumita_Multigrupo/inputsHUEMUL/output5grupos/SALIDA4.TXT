@@ -1,0 +1,211 @@
+
+************************************************************************
+**********  HUEMUL VERSIÓN 4.1.3 - Compilado septiembre 2017  **********
+************************************************************************
+
+--- HUEMUL comienza a ejecutarse el 9 de mayo de 2018 a las 11.51.30 ---
+
+****   datos
+****************************************************************************************
+****   CASO DE GENERACION DE LA CELDA DEL CAREM EN SIMETRÍA 6 CON ELEMENTOS ENTEROS
+****                    CON MUCHO MÁS DETALLE EN EL MODERADOR RENUMERANDO BARRAS
+****
+****    1.. 6: elemento J
+****    7..12: elemento E
+****   13..18: elemento P
+****   19..24: elemento F
+****   25..48: elemento L detallado con venenos quemables
+****   49..54: elemento B6
+****   55..78: elemento Q detallado con venenos quemables
+****   78..102: elemento G detallado con venenos quemables
+****   103..108: elemento T
+****   109..114: elemento M
+****   115..120: elemento C
+****   121..126: elemento A
+****   127..132: elemento U
+****   133..138: elemento N
+****   139..144: elemento D
+****   145..150: elemento S
+****   151..156: elemento I
+****   157..162: elemento O
+****
+****   163: Absorbente barra entera central R
+****   164: Absorbente barra entera central H
+****   165: Absorbente barra entera central K
+****
+****  166..183: vainas para los elementos combustibles
+****
+****  184: Vaina barra entera central R
+****  185: Vaina barra entera central H
+****  186: Vaina barra entera central K
+****
+****  187..204: moderador para los elemento combustibles
+****
+****  205: Moderador barra entera central R
+****  206: Moderador barra entera central H
+****  207: Moderador barra entera central K
+****
+****  208: Gap barra entera central R
+****  209: Gap barra entera central H
+****  210: Gap barra entera central K
+****
+****  211: Tubo barra entera central R
+****  212: Tubo barra entera central H
+****  213: Tubo barra entera central K
+****
+****  214: lugar para la instrumentación
+****  215: vaina para la  Instrumentación
+****  216: Moderador alrededor de la instrumentación
+****
+****  217:  Parte exterior para evaluar el coeficiente de continuidad
+***********************************************************************
+*******************************************************************
+*******************************************************************
+
+Definición del caso a calcular:
+
+Temperatura del combustible: 450 grados K
+Temperatura del refrigerante: 305 grados K
+Densidad del refrigerante: 0.675 gr/cm3
+
+SIN BARRAS ABSORBENTES
+
+CON DOCE BARRITAS DE GADOLINIO
+
+
+COMBUSTIBLE AL 3.1 POR CIENTO
+
+
+SinVC 8.805818518
+ConVC 7.97458112
+Con18 8.806724656
+Densidad Inicial = 8.713458806
+Densidad para PUMA = 4.269070613E-04
+
+
+******  Fue cargada la biblioteca  ******
+
+
+
+Secciones eficaces, carga de datos:   0.88  segundos
+
+Cálculo de XS: concentraciones isotópicas grabadas
+
+
+Sec eficaces - Tiempo total:    2.74  segundos
+
+
+Cálculo de las probabilidades de colisión
+Número de direcciones =   30
+
+
+Tiempo para el cálculo de los flujos de respuesta:   49.16 Segundos
+
+Tiempo total para el cálculo de las prob de colisión:   90.00 Segundos
+Cálculo de Celda  true
+Albedo Diagonal  true
+Hay Fuentes  false
+memoria para cálculo del flujo:  19856 KBytes
+
+Condiciones de contorno de celda
+
+Cálculo de criticidad
+
+Llenado de la matriz de scatt =   65.721 %
+
+Cálculo del flujo y K efectivo
+
+It Num      Conv Flujo    Conv Flujo(med)    Conv Keff       Keff        Rad        Omega
+   1        7.358E-08        1.217E-08       2.973E-08     0.871975     0.0000     1.0000
+
+ K Infinito:  0.871975       1 iteraciones
+
+Cálculo del flujo:     0.30 segundos
+
+Iteraciones para el cálculo del Buckling
+ Num   Buckling   K Efectivo
+K infinito =   0.87230
+   2 -2.14790E-03   0.92744
+   3 -2.18479E-03   0.99749
+   4 -2.18662E-03   0.99988
+   5 -2.18662E-03   0.99999
+
+Buckling = -2.1866E-03
+
+Se reemplazó la distr de flujo actual por la reajustada con el nuevo espectro
+
+Flujo
+  1.0713E-02  4.0762E-02  8.3764E-02  8.8912E-02  8.1067E-02  8.3310E-02  5.4905E-02  5.0064E-02  3.8178E-02  3.1292E-02  2.6875E-02  2.4386E-02
+  2.2567E-02  2.1467E-02  2.0751E-02  1.8379E-02  1.8002E-02  1.7860E-02  1.7606E-02  3.4478E-02  3.3441E-02  2.4305E-02  1.5874E-02  1.8434E-02
+  1.7370E-02  1.5770E-02  2.6550E-02  6.0702E-03  7.3562E-03  6.6127E-03  1.0756E-02  4.6523E-03  3.9901E-03  7.7560E-04  7.6349E-04  7.8234E-04
+  8.0610E-04  7.9540E-04  7.8712E-04  8.0818E-04  7.6120E-04  1.4387E-03  2.2968E-03  2.9209E-03  7.6961E-03  8.0732E-03  8.5627E-03  5.6015E-03
+  4.0732E-03  3.1356E-03  3.5848E-03  6.5137E-03  8.4217E-03  1.5639E-02  2.3089E-02  3.3465E-02  2.1052E-02  1.4957E-02  1.0720E-02  9.5856E-03
+  9.4137E-03  7.8840E-03  5.2945E-03  4.8972E-03  4.3775E-03  3.7171E-03  2.8943E-03  1.8867E-03  6.6973E-04
+
+Flujo efectivo
+  4.5399E-01  1.6677E+00  3.4060E+00  3.5861E+00  3.2595E+00  3.3836E+00  2.2289E+00  2.0418E+00  1.5614E+00  1.2826E+00  1.1035E+00  1.0031E+00
+  9.2968E-01  8.8580E-01  8.5738E-01  7.6038E-01  7.4564E-01  7.4084E-01  7.3122E-01  1.4348E+00  1.3949E+00  1.0157E+00  6.6436E-01  7.7226E-01
+  7.2859E-01  6.6260E-01  1.1171E+00  2.5576E-01  3.1010E-01  2.7891E-01  4.5405E-01  1.9650E-01  1.6858E-01  3.2772E-02  3.2262E-02  3.3061E-02
+  3.4067E-02  3.3617E-02  3.3270E-02  3.4162E-02  3.2178E-02  6.0825E-02  9.7116E-02  1.2353E-01  3.2560E-01  3.4175E-01  3.6277E-01  2.3754E-01
+  1.7286E-01  1.3314E-01  1.5229E-01  2.7690E-01  3.5828E-01  6.6584E-01  9.8372E-01  1.4265E+00  8.9753E-01  6.3771E-01  4.5706E-01  4.0869E-01
+  4.0136E-01  3.3612E-01  2.2572E-01  2.0877E-01  1.8661E-01  1.5845E-01  1.2337E-01  8.0414E-02  2.8541E-02
+
+
+Potencia: 1.951600312E-03
+
+Se renormalizó el flujo y la potencia al valor de potencia:  1.9516E-03
+
+Se grabó la nueva distr de flujo y potencia
+
+Secciones eficaces para PUMA:
+  2.61128E+00  1.34999E+00  8.12447E-01  4.28065E-01  2.42432E-01
+  2.64456E-03  6.43715E-02  5.32921E-04  1.25462E-11  2.06455E-13
+  0.00000E+00  1.44287E-03  7.29979E-02  4.28932E-06  4.24010E-07
+  0.00000E+00  0.00000E+00  1.91166E-02  5.36716E-02  4.81368E-03
+  0.00000E+00  0.00000E+00  2.36477E-03  7.16371E-02  2.49387E-01
+  0.00000E+00  0.00000E+00  4.99895E-06  3.61987E-01  1.20201E-01
+  6.04229E-03  5.57171E-04  7.93646E-03  6.11149E-02  1.34516E-01
+  2.38428E-03  2.39655E-04  3.43945E-03  2.64747E-02  5.82715E-02
+
+Secciones eficaces para PUMA:
+  3.05682E+00  1.63537E+00  8.48400E-01  3.76999E-01  2.05037E-01
+  2.38538E-04  7.72147E-02  7.98422E-04  0.00000E+00  0.00000E+00
+  0.00000E+00  5.61914E-06  1.08948E-01  6.46592E-06  6.39040E-07
+  0.00000E+00  0.00000E+00  5.94656E-04  7.86899E-02  7.15204E-03
+  0.00000E+00  0.00000E+00  2.22708E-03  5.98921E-03  3.57955E-01
+  0.00000E+00  0.00000E+00  6.89443E-06  4.85041E-01  1.28201E-02
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00
+
+*** +++ 450 305 0.675
+
+
+Parámetros globales para T = 0
+
+Keff estático       0.871975
+React estática      -14682.2 PCM
+    Factor de forma        1.381
+Potencia total     1.95160E-03
+
+
+
+
+Potencia por barrita en W/CM2   Valores medios por recinto   T =    0.00000
+
+REC   1  127.09639    REC   2  119.55911    REC   3  101.92874    REC   4  102.02717    REC   5   30.82140    
+REC   6  102.73067    REC   7   11.03829    REC   8   10.97470    REC   9  121.35455    REC  10  108.37717    
+REC  11  121.58296    REC  12  136.37544    REC  13  140.57147    REC  14  137.44301    REC  15  140.69853    
+REC  16  145.40205    REC  17  145.39347    REC  18  148.23391    
+
+Valor máximo:   148.2339
+Valor medio:   108.4227
+
+
+Xe 135                                    valor medio   0.0000E+00
+
+
+Quemado  valor medio      0.0000
+
+
+--- HUEMUL completa su ejecución el 9 de mayo de 2018 a las 11.53.12 ---
+

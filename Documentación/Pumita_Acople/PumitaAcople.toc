@@ -1,0 +1,51 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\vspace {-\cftbeforechapskip }
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}{Acople est\IeC {\'a}tico}}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}{C\IeC {\'a}lculo inicial de las secciones eficaces}}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}{Modificaci\IeC {\'o}n de Secciones Eficaces seg\IeC {\'u}n Par\IeC {\'a}metros Neutr\IeC {\'o}nico-Termohidr\IeC {\'a}ulicos}}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}{Modificaci\IeC {\'o}n por concentraci\IeC {\'o}n de Xen\IeC {\'o}n}}{2}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}{Modificaci\IeC {\'o}n por concentraci\IeC {\'o}n de Samario}}{3}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}{Modificaci\IeC {\'o}n por Par\IeC {\'a}metros Termohidr\IeC {\'a}ulicos}}{4}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}{C\IeC {\'a}lculo del Flujo Neutr\IeC {\'o}nico}}{4}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}{C\IeC {\'a}lculo de los Par\IeC {\'a}metros Neutr\IeC {\'o}nico - Termohidr\IeC {\'a}ulicos}}{4}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}{C\IeC {\'a}lculo de la distribuci\IeC {\'o}n de concentraci\IeC {\'o}n de Xen\IeC {\'o}n}}{4}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}{C\IeC {\'a}lculo de la distribuci\IeC {\'o}n de la concentraci\IeC {\'o}n de Samario}}{5}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}{C\IeC {\'a}lculo de la distribuci\IeC {\'o}n de los par\IeC {\'a}metros termohidr\IeC {\'a}ulicos}}{5}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Important Note:}}{6}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Yet Another Important Note:}}{7}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}{Organization}}{7}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}{Style Options}}{9}{section.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.7}{Customization}}{10}{section.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.8}{Issues}}{11}{section.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.9}{Future Work}}{11}{section.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.10}{Beyond a Thesis}}{11}{section.1.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.11}{License}}{11}{section.1.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{GNU General Public License:}}{11}{section.1.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{classichthesis Authors' note:}}{12}{section.1.11}

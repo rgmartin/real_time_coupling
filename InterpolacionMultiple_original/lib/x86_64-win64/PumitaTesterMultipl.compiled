@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1266910071"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiE:\Documentos\IB\Maestría\REPO\PUMITA\InterpolacionMultiple\lib\x86_64-win64 -FuE:\Documentos\IB\Maestría\REPO\PUMITA\InterpolacionMultiple\ -FUE:\Documentos\IB\Maestría\REPO\PUMITA\InterpolacionMultiple\lib\x86_64-win64\ PumitaTesterMultipl.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

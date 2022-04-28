@@ -1,0 +1,819 @@
++ PROC defarch :archivo ;
++ hacer "archivo_maestro :archivo;
++ hacer "IDRED [identificar red 'CAREM' del archivo]
++        || (alfanum :archivo) || [,] ;
++ hacer "IDRET [identificar reticulado 'CAREM' del archivo]
++        || (alfanum :archivo) || [,] ;
+* DEFINIR ARCHIVOS
++ transf :IDRED ;
++ transf :IDRET ;
++ FIN ;   defarch
++ PROC probabilidades ;
+* PROBABILIDADES DE COLISION
+  distancias del archivo 'DGEOMCAR',
+  dar tiempo de procesamiento ,
+  periodicidad bordes 1 a 1 angulo 330 grados con bordes 40 a 40 angulo 30 grados ,
+  periodicidad bordes 2 a 2 angulo 330 grados con bordes 39 a 39 angulo 30 grados ,
+  periodicidad bordes 3 a 3 angulo 330 grados con bordes 38 a 38 angulo 30 grados ,
+  periodicidad bordes 4 a 4 angulo 330 grados con bordes 37 a 37 angulo 30 grados ,
+  periodicidad bordes 5 a 5 angulo 30 grados con bordes 36 a 36 angulo 90 grados ,
+  periodicidad bordes 6 a 6 angulo 330 grados con bordes 35 a 35 angulo 30 grados ,
+  periodicidad bordes 7 a 7 angulo 270 grados con bordes 34 a 34 angulo 330 grados ,
+  periodicidad bordes 8 a 8 angulo 330 grados con bordes 33 a 33 angulo 30 grados ,
+  periodicidad bordes 9 a 9 angulo 30 grados con bordes 32 a 32 angulo 90 grados ,
+  periodicidad bordes 10 a 10 angulo 330 grados con bordes 31 a 31 angulo 30 grados ,
+  periodicidad bordes 11 a 11 angulo 270 grados con bordes 30 a 30 angulo 330 grados ,
+  periodicidad bordes 12 a 12 angulo 330 grados con bordes 29 a 29 angulo 30 grados ,
+  periodicidad bordes 13 a 13 angulo 30 grados con bordes 28 a 28 angulo 90 grados ,
+  periodicidad bordes 14 a 14 angulo 330 grados con bordes 27 a 27 angulo 30 grados ,
+  periodicidad bordes 15 a 15 angulo 270 grados con bordes 26 a 26 angulo 330 grados ,
+  periodicidad bordes 16 a 16 angulo 330 grados con bordes 25 a 25 angulo 30 grados ;
++ FIN ;
++ PROC flujos :ident ;
++ asigna "POT 100.0/(140.0*61.0*6*:FactPot) ;
++ SI vacía? :ident ENTONCES :
+*   FLUJOS
+      imprimir tiempo de procesamiento ,
+      precision  1.0e-7 ,
+      flujo anterior;
+*   POTENCIAS
+*   CONDENSAR
+      condensar y calcular fugas reevaluar flujos regiones 1 a 217  ,
+      normalizar a potencia :POT MW grabar ;
++ SINO :
+*   ESTADO
+    asignar valores del quemado a la variable LOGO 'QuemMedio' canales 1 a 162 promedio ;
++   hacer "ID [identificacion] || (alfanum (:ident || (formato :QuemMedio 2))) || [,] ;
+*   FLUJOS
+      imprimir tiempo de procesamiento ,
+      imprimir y tipear iteraciones ,
+      precision  1.0e-7 ,
+      flujo anterior,
+*   POTENCIAS
+*   CONDENSAR
+    condensar y calcular fugas  reevaluar flujos regiones 1 a 217  imprimir flujos ,
++   LINEA LINEA escribe [Potencia:] || :POT ;
+    normalizar a potencia :POT MW grabar ,
++   SI :Grabar_Multiple ENTONCES :
++     transf [archivo de interpolación múltiple] || (alfanum :nom5G) || [,] ;
++   FINCOND ;
+    condensar a 5 grupos con estructura 5 14 45 57 69 imprimir secciones eficaces *
+    para PUMA regiones 1 a 217 ,
+    condensar a 5 grupos con estructura 5 14 45 57 69 imprimir secciones eficaces *
+    para PUMA regiones 217 a 217 ,
++ FINCOND ;
++ FIN ;  flujos
++ PROC con_separadores ;
++ HHH := 5 ;
++ vol_total := 1.0131*18 + 0.51820*3;
++ prop_comb := 1.0131*18/vol_total;
++ prop_barra := 0.51820*3/vol_total;
++ vol_zirc := 29.1/6*prop_comb/18 ;
++ vol_acero := 9.61/6*prop_comb/18 ;
++ vol_zirc_B := 29.1/6*prop_barra/3 ;
++ vol_acero_B := 9.61/6*prop_barra/3 ;
++ vol_agua :=  1.0131*HHH - (vol_zirc + vol_acero);
++ vol_agua_B := 0.51829*HHH - (vol_zirc_B + vol_acero_B) ;
++ peso_mezcla := (vol_zirc*6.6 + vol_acero*8.19 + vol_agua*:DENS) ;
++ peso_mezcla_B := (vol_zirc_B*6.6 + vol_acero_B*8.19 + vol_agua_B*:DENS) ;
++ dens_mezcla := peso_mezcla/(1.0131*HHH);
++ dens_mezcla_B := peso_mezcla_B/(0.51820*HHH);
++ p_agua := vol_agua*:DENS/(peso_mezcla);
++ p_acero := vol_acero*8.19/(peso_mezcla);
++ p_zirc := vol_zirc*6.6/(peso_mezcla);
++ p_agua_B := vol_agua_B*:DENS/(peso_mezcla_B);
++ p_acero_B := vol_acero_B*8.19/(peso_mezcla_B);
++ p_zirc_B := vol_zirc_B*6.6/(peso_mezcla_B);
++ SI :mostrar_separadores ENTONCES :
++   escribe [******************************************************************] ;
++   escribe [Cálculo para los separadores:] ;
++   LINEA ;
++   escribe [VOLÚMENES DENTRO DE UNA CELDILLA:] ;
++   LINEA ;
++   escribe [VOL ZIRC] || vol_zirc;
++   escribe [VOL ACERO] || vol_acero;
++   escribe [VOL AGUA] || vol_agua;
++   escribe [VOL CELDILLA] || (1.0131*HHH);
++   LINEA ;
++   escribe [PESOS TOTALES EN UNA CELDILLA:] ;
++   LINEA ;
++   escribe [PESO ZIRC] || (vol_zirc*6.6);
++   escribe [PESO ACERO] || (vol_acero*8.19);
++   escribe [PESO AGUA] || (vol_agua*DENS);
++   escribe [PESO CELDILLA] || (peso_mezcla);
++   LINEA LINEA ;
++   LINEA escribe [ Proporciones en peso alrededor de las varillas combustibles:] ;
++   escribe [zirconio] || formato :p_zirc 4;
++   escribe [acero] || formato :p_acero 4;
++   escribe [agua] || formato :p_agua 4;
++   LINEA ;
++   LINEA escribe [ Proporciones en peso alrededor de las barras:] ;
++   escribe [zirconio] || formato :p_zirc_B 4;
++   escribe [acero] || formato :p_acero_B 4;
++   escribe [agua] || formato :p_agua_B 4;
++   LINEA ;
++ SINO :
++   escribe [*** Se calculan densidades y concentraciones para los separadores] ;
++   LINEA ;
++ FINCOND ;
++ O16 := 88.81*p_agua + 0.13*p_zirc;
++ H1 := 11.19*p_agua;
++ Zr91 := 98.10*p_zirc;
++ Sn118 := 1.45*p_zirc;
++ Fe56 := 0.22*p_zirc + 20.05*p_acero;
++ Cr52 := 0.10*p_zirc + 17.82*p_acero;
++ C12 := 0.03*p_acero;
++ Mn55 := 0.24*p_acero;
++ S32 := 0.01*p_acero;
++ Si29 := 0.34*p_acero;
++ Ni58 := 51.59*p_acero;
++ Mo96 := 3.58*p_acero;
++ Cu63 := 0.03*p_acero;
++ Al27 := 0.54*p_acero;
++ Ti48 := 0.66*p_acero;
++ Nb93 := 5.14*p_acero;
++ mezcla := (lista [O 16] :O16) || (lista [H 1] :H1) || (lista [Zr 91] :Zr91) ;
++ mezcla := mezcla
++   || (lista [Sn 118] :Sn118) || (lista [Fe 56] :Fe56) || (lista [Cr 52] :Cr52) ;
++ mezcla := mezcla || (lista [C 12] :C12) || (lista [Mn 55] :Mn55) || (lista [S 32] :S32) ;
++ mezcla := mezcla || (lista [Si 29] :Si29) || (lista [Ni 58] :Ni58)|| (lista [Mo 96] :Mo96) ;
++ mezcla := mezcla || (lista [Cu 63] :Cu63) || (lista [Al 27] :Al27) || (lista [Ti 48] :Ti48)
++     || (lista [Nb 93] :Nb93) ;
++ mezcla := (formato :dens_mezcla 4) || :TREF ||  mezcla;
++ SI :mostrar_separadores ENTONCES :
++   escribe [ Densidad, temperatura y concentraciones alrededor de las varillas combustibles] ;
++   F := :mezcla ;
++   hacer "n 1 ;
++   MIENTRAS no vacia? :F :
++     escribes frase primero :F formato primero sp :F 4 blancos 4;
++     hacer "F sp sp :F ;
++     hacer "n :n + 1;
++     si (mod :n 4) = 0 LINEA ;
++   FINMIENTRAS  ;
++   LINEA LINEA ;
++ FINCOND ;
++ O16 := 88.81*p_agua_B + 0.13*p_zirc_B;
++ H1 := 11.19*p_agua_B;
++ Zr91 := 98.10*p_zirc_B;
++ Sn118 := 1.45*p_zirc_B;
++ Fe56 := 0.22*p_zirc_B + 20.05*p_acero_B;
++ Cr52 := 0.10*p_zirc_B + 17.82*p_acero_B;
++ C12 := 0.03*p_acero_B;
++ Mn55 := 0.24*p_acero_B;
++ S32 := 0.01*p_acero_B;
++ Si29 := 0.34*p_acero_B;
++ Ni58 := 51.59*p_acero_B;
++ Mo96 := 3.58*p_acero_B;
++ Cu63 := 0.03*p_acero_B;
++ Al27 := 0.54*p_acero_B;
++ Ti48 := 0.66*p_acero_B;
++ Nb93 := 5.14*p_acero_B;
++ mezcla_B := (lista [O 16] :O16) || (lista [H 1] :H1) || (lista [Zr 91] :Zr91) ;
++ mezcla_B := mezcla_B
++   || (lista [Sn 118] :Sn118) || (lista [Fe 56] :Fe56) || (lista [Cr 52] :Cr52) ;
++ mezcla_B := mezcla_B || (lista [C 12] :C12) || (lista [Mn 55] :Mn55) || (lista [S 32] :S32) ;
++ mezcla_B := mezcla_B || (lista [Si 29] :Si29) || (lista [Ni 58] :Ni58)|| (lista [Mo 96] :Mo96) ;
++ mezcla_B := mezcla_B || (lista [Cu 63] :Cu63) || (lista [Al 27] :Al27) || (lista [Ti 48] :Ti48)
++     || (lista [Nb 93] :Nb93) ;
++ mezcla_B := (formato :dens_mezcla_B 4) || :TREF ||  mezcla_B;
++ SI :mostrar_separadores ENTONCES :
++   escribe [ Densidad, temperatura y concentraciones isotópicas alrededor de las barras] ;
++   F := :mezcla_B ;
++   hacer "n 1 ;
++   MIENTRAS no vacia? :F :
++     escribes frase primero :F formato primero sp :F 4 blancos 4 ;
++     hacer "F sp sp :F ;
++     hacer "n :n + 1;
++     si (mod :n 4) = 0 LINEA ;
++   FINMIENTRAS  ;
++   LINEA LINEA escribe [******************************************************************] ;
++ FINCOND;
++ FIN ; con_separadores ;
++ PROC carga_mat :L ;
++ LOCAL "elem LOCAL "p ;
++ MIENTRAS (cuenta :L) > 0 :
++   asigna "elem primero :L;
++   asigna "p primero sp :L ;
++   transf [asignar valores al parametro '] || :elem || [' *] ;
++   transf [canales :n1 al :n2 constante :p ,] ;
++   asigna "L sp sp :L ;
++   FINMIENTRAS;
++ FIN ;
++ PROC material :n1 :n2 :L ;
++ LOCAL "dens LOCAL "temp ;
++ asigna "dens primero :L ;
++ asigna "temp primero sp :L ;
++ SI numero? :dens ENTONCES :
+    asignar valores al parametro 'DENSIDAD' *
+          canales :n1 al :n2 constante :dens ,
++   FINCOND ;
++ SI numero? :temp ENTONCES :
+    asignar valores al parametro 'TEMPERATURA' *
+         canales :n1 al :n2 constante :temp ,
++   FINCOND ;
++ hacer "L sp sp :L ;
++ si no vacia? :L carga_mat :L ;
++ FIN ;     material
++ PROC materiales :TCOMB :TREF :DENS :COMANDOS ;
++ hacer "barra_interna miembro? "BI :COMANDOS ;
++ hacer "barra_externa miembro? "BE :COMANDOS ;
++ hacer "conc18 miembro? primero [1.8%] :COMANDOS ;
++ hacer "separador miembro? "SEP :COMANDOS ;
++ hacer "GD6 miembro? "GD6 :COMANDOS ;
++ hacer "GD12 miembro? "GD12 :COMANDOS ;
++ escribe
++ [*******************************************************************] ;
++ escribe
++ [*******************************************************************] ;
++ LINEA escribe [ Definición del caso a calcular:] ;
++ LINEA ;
++ escribe [Temperatura del combustible:] || :TCOMB || [ grados K];
++ escribe [Temperatura del refrigerante:] || :TREF || [ grados K];
++ escribe [Densidad del refrigerante:] || :DENS || [ gr/cm3] ;
++ hacer "TCOMB :TCOMB + 273.2 ;
++ hacer "TREF :TREF + 273.2 ;
++ LINEA ;
++ si :barra_interna escribe [ CON LA BARRA INTERNA] ;
++ si :barra_externa escribe [ CON LA BARRA EXTERNA] ;
++ si (no :barra_interna) & (no :barra_externa)
++      escribe [ SIN BARRAS ABSORBENTES] ;
++ LINEA ;
++ si :GD6 escribe [ CON SEIS BARRITAS DE GADOLINIO] ;
++ si :GD12 escribe [ CON DOCE BARRITAS DE GADOLINIO] ;
++ si (no :GD6) & (no :GD12)
++      escribe [ SIN BARRITAS DE GADOLINIO] ;
++ LINEA ;
++ si :separador escribe [ CON EL SEPARADOR] ;
++ LINEA ;
++ si :conc18 escribe [ COMBUSTIBLE AL 1.8 POR CIENTO] ;
++ si no :conc18 escribe [ COMBUSTIBLE AL 3.1 POR CIENTO] ;
++ LINEA LINEA ;
++ SI :t = 0.0 & :primer_calculo ENTONCES :
++   asigna "combustible_con_VC [0.0] || :TCOMB
++    || [[U 234] 1.0895E+18 [U 235] 1.4535E+20 [U 238] 2.0030E+22 [O 16] 4.3955E+22]
++    || [[Gd 154] 5.2365E19 [Gd 155] 3.5551E+20 [Gd 156] 4.9170E20]
++    || [[Gd 157] 3.7592E+20 [Gd 158] 1.1266E+21 [B 11 A] 2.2551E+18] ;
++   asigna "combustible [0.0] || :TCOMB
++    || [[U 234] 7.0246E18 [U 235] 6.9946E20 [U 238] 2.1581E22 [O 16] 4.4575E22]
++    || [[B 11 A] 2.41196E18] ;
++   asigna "combustible18 [0.0] || :TCOMB
++  || [[U 234] 4.0789E18 [U 235] 4.0615E20 [U 238] 2.1874E22 [O 16] 4.4568E22]
++    || [[B 11 A] 2.41196E18] ;
++   si :conc18 hacer "combustible :combustible18 ;
++ SINO :
++   hacer "combustible [dejar] || :TCOMB ;
++   hacer "combustible_con_VC [dejar] || :TCOMB ;
++ FINCOND ;
++ SI :con_variaciones ENTONCES :
++   hacer "DensOx 2.2898E22*:DENS*1000/685.0 ;
++   hacer "DensHi 4.5128E22*:DENS*1000/685.0 ;
++   asigna "refrigerante [0.0] || :TREF || [[O 16]] || :DensOx || [[H 1]] || :DensHi ;
++   escribe [refrigerante = ] || :refrigerante ;
++   asigna "gap_barra :refrigerante ;
++   asigna "sin_vaina_barra :refrigerante ;
++   asigna "sin_barra :refrigerante ;
++ SINO :
++   asigna "refrigerante [0.0] || :TREF || [[O 16] 2.2898E22 [H 1] 4.5796E22]
++   asigna "gap_barra :refrigerante ;
++   asigna "sin_vaina_barra :refrigerante ;
++   asigna "sin_barra :refrigerante ;
++ FINCOND ;
++  hacer "acero [7.99] || :TREF || [[C 12] 0.03 [Cr 52] 19.0 [Fe 56] 68.97
++                   [Mn 55] 2.0 [Ni 58] 9.0 [Si 29] 1.0] ;
++ hacer "acero_y_agua  [0.0] || :TREF || [[H 1] 3.2057E21 [O 16] 1.6029E21
++                              [C 12] 1.1177E20 [Cr 52] 1.6352E22 [Fe 56] 5.4505E22
++                              [Mn 55] 1.6291E21 [Ni 58] 7.6242E21 [Si 29] 1.1950E21
++                               [N 14] 3.1948E20 [Co 59] 7.5931E19 [B 11 A] 1.2418E16] ;
++ asigna "vaina (6.6*(0.45*0.45-0.3875*0.3875)/(0.45*0.45 - 0.38*0.38))
++    || :TREF || [[Zr 91] 98.10 [Sn 118] 1.45 [Fe 56] 0.22 [Cr 52] 0.10 [O 16] 0.13]
++    || [[B 11 A] 2.4966E-04] ;
++ asigna "vaina_barra (7.99*(0.425*0.425-0.36*0.36)/(0.425*0.425-0.35*0.35))
++    || :TREF || [[Fe 56] 68.97 [Cr 52] 19.0 [C 12] 0.03 [Mn 55] 2.0 [Ni 58] 9.0 [Si 29] 1.0] ;
++ asigna "barra 10.17 || :TREF || [[YY 707] 41.10048 [YY 709] 38.89952]
++    ||    [[In 113] 0.632772 [YY 915] 14.367228 [YY 800] 5.0 [O 16] 0.0 [H 1] 0.0] ;
++ hacer "aguabajo [0.0] || [285.0] || [[O 16] 2.5171E22 [H 1] 5.0343E22] ; dens 0.753
++ hacer "aguarriba [0.0] || [326.38] || [[O 16] 2.1728E22 [H 1] 4.3456E22] ; dens 0.65
++ SI :separador ENTONCES :
++   con_separadores ;
++ FINCOND ;
++ Densidad_SinVC := 9.9905*(2.73259 + 85.3820 + 0.02733)*0.01;
++ Densidad_ConVC := 9.770*(0.58061 + 81.03820 + 4.3335E-03)*0.01;
++ Densidad_18 := 9.9905*(1.58671 + 86.54841 + 0.01587)*0.01;
++ escribe "SinVC || :Densidad_SinVC ;
++ escribe "ConVC || :Densidad_ConVC ;
++ escribe "Con18 || :Densidad_18 ;
++ SI :DENS_URANIO = 0.0 ENTONCES :
++   hacer "DENS_URANIO :Densidad_SinVC ;
++   si :conc18 hacer "DENS_URANIO :Densidad_18 ;
++   si :GD6 hacer "DENS_URANIO (:Densidad_SinVC*102 + :Densidad_ConVC*6)/108 ;
++   si :GD12 hacer "DENS_URANIO (:Densidad_SinVC*96 + :Densidad_ConVC*12)/108 ;
++   si :GD12 & :GD6 hacer "DENS_URANIO (:Densidad_SinVC*90 + :Densidad_ConVC*18)/108 ;
++   escribe [ Densidad Inicial = ] || :DENS_URANIO ;
++   escribe [ Densidad para PUMA = ] || (:DENS_URANIO * 0.453648 * 108 * 1.0E-6);
++ FINCOND ;
+* ESTADO DEL REACTOR
++ material 1 24  :combustible ;
++ SI :GD6 ENTONCES :
++   material 25 48  :combustible_con_VC ;
++ SINO :
++   material 25 48 :combustible ;
++ FINCOND ;
++ material 49 54  :combustible ;
++ SI :GD12 ENTONCES :
++   material 55 78  :combustible_con_VC ;
++ SINO :
++   material 55 78  :combustible ;
++ FINCOND ;
++ SI :GD12 ENTONCES :
++   material 79 102  :combustible_con_VC ;
++ SINO :
++   material 79 102  :combustible ;
++ FINCOND ;
++ material 103 162 :combustible ;
++ material 166 183 :vaina ;
++ SI :separador ENTONCES :
++   material 187 204 :mezcla ;
++ SINO :
++   material 187 204 :refrigerante ;
++ FINCOND ;
++ SI :separador ENTONCES :
++   material 205 207 :mezcla_B ;
++ SINO :
++   material 205 207 :refrigerante ;
++ FINCOND ;
++ SI :barra_externa ENTONCES :
++   material 163 164 :barra ;
++   material 184 185 :vaina_barra ;
++ SINO :
++   material 163 164 :sin_barra ;
++   material 184 185 :sin_vaina_barra ;
++ FINCOND ;
++ SI :barra_interna ENTONCES :
++   material 165 165 :barra ;
++   material 186 186 :vaina_barra ;
++ SINO :
++   material 165 165 :sin_barra ;
++   material 186 186 :sin_vaina_barra ;
++ FINCOND ;
++ material 208 210 :gap_barra ;
++ material 211 213 :vaina ;
++ material 214 214 :refrigerante ;
++ material 215 215 :vaina ;
++ material 216 216 :refrigerante ;
++ material 217 217 :refrigerante ;
++ FIN ;  materiales
++ PROC biblioteca ;
+* SECCIONES EFICACES DE BIBLIOTECA
+  182 isotopos:
+'H    1  '  ,'H    1 A'  ,'D    2  '  ,'He   3  '  ,'He   4  '  ,
+'Li   6  '  ,'Li   7  '  ,'Be   9  '  ,'B   10  '  ,'B   10 A'  ,
+'B   11  '  ,'B   11 A'  ,'C   12  '  ,'N   14  '  ,'O   16  '  ,
+'F   19  '  ,'Na  23  '  ,'Mg  24  '  ,'Al  27  '  ,'Si  29  '  ,
+'P   31  '  ,'S   32  '  ,'Cl  35  '  ,'Ca  40  '  ,'Ti  48  '  ,
+'V   51  '  ,'Cr  52  '  ,'Mn  55  '  ,'Fe  56  '  ,'Ni  58  '  ,
+'Co  59  '  ,'Cu  63  '  ,'Zr  91  '  ,'Nb  93  '  ,'Mo  96  '  ,
+'Ag 109  '  ,'Cd 113  '  ,'In 115  '  ,'Sn 118  '  ,'Sb 121  '  ,
+'Sb 123  '  ,'Eu 152  '  ,
+  'Gd 154  ' RESONANTE ,'Gd 155  ' RESONANTE ,
+   'Gd 156  ' RESONANTE  ,
+  'Gd 157 ' RESONANTE ,'Gd 158 ' RESONANTE ,
+'Dy 160  '  ,'Dy 161  '  ,'Dy 162  '  ,
+'Dy 163  '  ,'Dy 164  '  ,'Ho 165  '  ,'Er 166  '  ,'Er 167  '  ,
+'Hf 176  '  ,'Hf 177  '  ,'Hf 178  '  ,'Hf 179  '  ,'Hf 180  '  ,
+'Hf 178 A'  ,'Ta 181  '  ,'W  183  '  ,'Pb 207  '  ,'Kr  83  '  ,
+'Mo  95  '  ,'Tc  99  '  ,'Ru 101  '  ,'Ru 103  '  ,'Ru 106  '  ,
+'Rh 103  '  ,'Rh 105  '  ,'Pd 105  '  ,'Pd 107  '  ,'Pd 108  '  ,
+'Ag 109 A'  ,'Cd 113 A'  ,'In 115 A'  ,'Sb 125  '  ,'Te 127  '  ,
+'I  127  '  ,'Xe 131  '  ,'Cs 133  '  ,'Cs 134  '  ,'Cs 137  '  ,
+'I  135  '  ,'Xe 134  '  ,'Xe 135  '  ,'Cs 135  '  ,'Xe 136  '  ,
+'Nd 143  '  ,'Nd 145  '  ,'Pm 147  '  ,'Pm 147 A'  ,'Sm 147  '  ,
+'Pm 148  '  ,'Pm 148 A'  ,'Sm 148  '  ,'Pm 149  '  ,'Sm 149  '  ,
+'Sm 150  '  ,'Sm 151  '  ,'Sm 152  '  ,'Eu 151  '  ,'Eu 152 A'  ,
+'Eu 153  '  ,'Eu 154  '  ,'Eu 155  '  ,'YY 902  '  ,'Th 232  '  ,
+'U  232  '  ,'U  232 A'  ,'U  233  '  ,'Pa 231  '  ,'Pa 233  '  ,
+'U  234  '  ,'U  235  ' RESONANTE ,'U  236  '  ,'YY 927  '  ,'YY 927 A'  ,
+'U  238  ' RESONANTE , 'YY 937  '  ,'YY 939  '  ,'YY 948  '  ,'Pu 239  ' RESONANTE ,
+'Pu 240  '  ,'Pu 241  '  ,'Pu 242  '  ,'Pu 242 A'  ,'YY 951  '  ,
+'YY 952  '  ,'YY 952 A'  ,'YY 953  '  ,'YY 962  '  ,'YY 963  '  ,
+'YY 964  '  ,'XX   0  '  ,'YY   0  '  ,'XX   0 A'  ,'XX   0 B'  ,
+'XX   0 C'  ,'GR 212  '  ,'Zr  91 A'  ,'Mn  55 A'  ,'Fe  54  '  ,
+'Fe  58  '  ,'Co  59 A'  ,'Ni  58 A'  ,'Cu  63 A'  ,'Kr  84  '  ,
+'Rh 103 A'  ,'In 115 B'  ,'In 115 C'  ,'Eu 151 A'  ,'Dy 164 A'  ,
+'Lu 176  '  ,'Au 197  '  ,'Th 232 A'  ,'Th 232 B'  ,'U  235 A'  ,
+'U    3  '  ,'U  238 A'  ,'U  238 B'  ,'Np 237  '  ,'Pu 239 A'  ,
+'YY 632  '  ,'YY 633  '  ,'YY 635  '  ,'YY 638  '  ,'YY 639  '  ,
+'YY 640  '  ,'YY 641  '  ,'YY 642  '  ,'YY 700  '  ,'YY 800  '  ,
+'YY 900  '  ,'YY 707  ' RESONANTE ,'YY 709  ' RESONANTE ,
+            'YY 915  ' RESONANTE  ,
+            'Gd 160  '  RESONANTE   ,
+'In 113  '  ,'Gd 152  '  ,
+  cerrar biblioteca al final ,
+  archivo de la biblioteca 'WC69E72.LIB' version vieja ,
+  incluir sigmas P1 ,
+  69 grupos de biblioteca ,
+      imprimir tiempo de procesamiento ,
++ SI :mostrar_concentraciones ENTONCES :
+    imprimir concentraciones por peso ,
++   hacer "mostrar_concentraciones "FALSO ;
++ FINCOND;
++ reso ;
++ FIN ;  biblioteca
++ PROC micro_pizza :n ;
++ hacer "NF :n + 5 ;
++ MIENTRAS :n <= :NF :
+    microcelda :n  0.16666666  barritas interna  *
+    2 contornos 166 187 fracciones 0.16666666 0.16666666 ,
++   hacer "n :n + 1;
++ FINMIENTRAS ;
++ FIN ; micro_pizza ;
++ PROC micro_pizza_externa :n ;
++ hacer "NF :n + 5 ;
++ MIENTRAS :n <= :NF :
+    microcelda :n  0.16666666  barritas interna   *
+    2 contornos 166 187 fracciones 0.16666666 :FC ,
++   hacer "n :n + 1;
++ FINMIENTRAS ;
++ FIN ; micro_pizza_externa ;
++ PROC micro_detallado :n ;
++ hacer "NF :n + 23 ;
++ MIENTRAS :n <= :NF :
+    microcelda :n  0.0416666666666  barritas interna   *
+    2 contornos 166 187 fracciones 0.0416666666 0.0416666666 ,
++   hacer "n :n + 1;
++ FINMIENTRAS ;
++ FIN ; micro_detallado ;
++ PROC reso ;
++ hacer "num_micro 162 ;
++ si :barra_interna hacer "num_micro :num_micro + 1 ;
++ si :barra_externa hacer "num_micro :num_micro + 2 ;
+  definir :num_micro microceldas de 4 contornos en geometria cluster *
+    127 barritas 18 90 vacantes 1 perisfericas *
+     moderador mat 217 a 217  ,
++ hacer "FC 0.16666666 ;
++ micro_pizza 1 ;
++ micro_pizza 7 ;
++ micro_pizza 13 ;
++ micro_pizza 19 ;
++ micro_detallado 25 ;
++ micro_pizza 49 ;
++ micro_detallado 55 ;
++ micro_detallado 79 ;
++ micro_pizza 103 ;
++ micro_pizza 109 ;
++ micro_pizza 115 ;
++ micro_pizza_externa 121 ;
++ micro_pizza_externa 127 ;
++ micro_pizza 133 ;
++ micro_pizza_externa 139 ;
++ micro_pizza_externa 145 ;
++ micro_pizza_externa 151 ;
++ micro_pizza_externa 157 ;
++ SI :barra_externa ENTONCES :
+    microcelda 163  1.0  barritas   *
+    4 contornos 184 208 211 205 fracciones 1.0 1.0 1.0 1.0 ,
+    microcelda 164  1.0  barritas    *
+    4 contornos 185 209 212 206 fracciones 1.0 1.0 1.0 1.0 ,
++ FINCOND ;
++ SI :barra_interna ENTONCES :
+    microcelda 165  1  barritas   *
+    4 contornos 186 210 213 207 fracciones 1.0 1.0 1.0 1.0 ,
++ FINCOND ;
++ FIN ;  reso
++ PROC quemado :paso :guardar :caso ;
++ hacer "PasoMax 2*:FactPot;
+* QUEMADO
+  182 isotopos:
+'H    1  '  ,'H    1 A'  ,'D    2  '  ,'He   3  '  ,'He   4  '  ,
+'Li   6  '  ,'Li   7  '  ,'Be   9  '  ,'B   10  '  ,'B   10 A'  ,
+'B   11  '  ,'B   11 A'  ,'C   12  '  ,'N   14  '  ,'O   16  '  ,
+'F   19  '  ,'Na  23  '  ,'Mg  24  '  ,'Al  27  '  ,'Si  29  '  ,
+'P   31  '  ,'S   32  '  ,'Cl  35  '  ,'Ca  40  '  ,'Ti  48  '  ,
+'V   51  '  ,'Cr  52  '  ,'Mn  55  '  ,'Fe  56  '  ,'Ni  58  '  ,
+'Co  59  '  ,'Cu  63  '  ,'Zr  91  '  ,'Nb  93  '  ,'Mo  96  '  ,
+'Ag 109  '  ,'Cd 113  '  ,'In 115  '  ,'Sn 118  '  ,'Sb 121  '  ,
+'Sb 123  '  ,'Eu 152  '  ,
+  'Gd 154  ' RESONANTE  ,'Gd 155  ' RESONANTE  ,
+   'Gd 156  ' RESONANTE  ,
+  'Gd 157 ' RESONANTE  ,'Gd 158 ' RESONANTE  ,
+  'Dy 160  '  ,'Dy 161  '  ,'Dy 162  '  ,
+'Dy 163  '  ,'Dy 164  '  ,'Ho 165  '  ,'Er 166  '  ,'Er 167  '  ,
+'Hf 176  '  ,'Hf 177  '  ,'Hf 178  '  ,'Hf 179  '  ,'Hf 180  '  ,
+'Hf 178 A'  ,'Ta 181  '  ,'W  183  '  ,'Pb 207  '  ,'Kr  83  '  ,
+'Mo  95  '  ,'Tc  99  '  ,'Ru 101  '  ,'Ru 103  '  ,'Ru 106  '  ,
+'Rh 103  '  ,'Rh 105  '  ,'Pd 105  '  ,'Pd 107  '  ,'Pd 108  '  ,
+'Ag 109 A'  ,'Cd 113 A'  ,'In 115 A'  ,'Sb 125  '  ,'Te 127  '  ,
+'I  127  '  ,'Xe 131  '  ,'Cs 133  '  ,'Cs 134  '  ,'Cs 137  '  ,
+'I  135  ' ESTACIONARIO  ,'Xe 134  '  ,
++ SI :paso >= 0.0 ENTONCES :
+    'Xe 135  ' ESTACIONARIO  ,
++ SINO :
+    'Xe 135  ' ESTACIONARIO EXCLUIRLO ,
++ FINCOND ;
+                                   'Cs 135  '  ,'Xe 136  '  ,
+'Nd 143  '  ,'Nd 145  '  ,'Pm 147  '  ,'Pm 147 A'  ,'Sm 147  '  ,
+'Pm 148  '  ,'Pm 148 A'  ,'Sm 148  '  ,'Pm 149  '  ,'Sm 149  '  ,
+'Sm 150  '  ,'Sm 151  '  ,'Sm 152  '  ,'Eu 151  '  ,'Eu 152 A'  ,
+'Eu 153  '  ,'Eu 154  '  ,'Eu 155  '  ,'YY 902  '  ,'Th 232  '  ,
+'U  232  '  ,'U  232 A'  ,'U  233  '  ,'Pa 231  '  ,'Pa 233  '  ,
+'U  234  '  ,'U  235  ' RESONANTE ,'U  236  '  ,'YY 927  '  ,'YY 927 A'  ,
+'U  238  ' RESONANTE , 'YY 937  '  ,'YY 939  '  ,'YY 948  '  ,'Pu 239  ' RESONANTE ,
+'Pu 240  '  ,'Pu 241  '  ,'Pu 242  '  ,'Pu 242 A'  ,'YY 951  '  ,
+'YY 952  '  ,'YY 952 A'  ,'YY 953  '  ,'YY 962  '  ,'YY 963  '  ,
+'YY 964  '  ,'XX   0  '  ,'YY   0  '  ,'XX   0 A'  ,'XX   0 B'  ,
+'XX   0 C'  ,'GR 212  '  ,'Zr  91 A'  ,'Mn  55 A'  ,'Fe  54  '  ,
+'Fe  58  '  ,'Co  59 A'  ,'Ni  58 A'  ,'Cu  63 A'  ,'Kr  84  '  ,
+'Rh 103 A'  ,'In 115 B'  ,'In 115 C'  ,'Eu 151 A'  ,'Dy 164 A'  ,
+'Lu 176  '  ,'Au 197  '  ,'Th 232 A'  ,'Th 232 B'  ,'U  235 A'  ,
+'U    3  '  ,'U  238 A'  ,'U  238 B'  ,'Np 237  '  ,'Pu 239 A'  ,
+'YY 632  '  ,'YY 633  '  ,'YY 635  '  ,'YY 638  '  ,'YY 639  '  ,
+'YY 640  '  ,'YY 641  '  ,'YY 642  '  ,'YY 700  '  ,'YY 800  '  ,
+'YY 900  '  ,'YY 707  '  ,'YY 709  '  ,'YY 915  '  ,
+            'Gd 160  '  RESONANTE  AISLADO ,
+'In 113  '  ,'Gd 152  ' ,
+  archivo de la biblioteca 'WC69E72.LIB' version vieja ,
++ SI (miembro? "comenzar :caso)
++                | (miembro? "COMENZAR :caso) ENTONCES :
+     guardar estado anterior ,
++ FINCOND ;
++ SI (miembro? "continuar :caso)
++                | (miembro? "CONTINUAR :caso) ENTONCES :
+     partir del estado anterior ,
++ FINCOND ;
+  metodo analitico ,
+     nivel máximo 28 ,
+     69 grupos de biblioteca ,
+     densidad inicial   :DENS_URANIO  ,
+     paso  :paso        dias ,
++ LINEA ;
++ SI (miembro? "guardar :guardar)
++                | (miembro? "GUARDAR :guardar) ENTONCES :
++ escribe [ Se graban concentraciones para T =] || (:t + :paso) ;
+      grabar ,
++ SINO :
++ escribe [ No se va a grabar un nuevo estado] ;
++ FINCOND ;
++ LINEA ;
++ reso ;
++ FIN ;  quemado
++ PROC calcular :TCOMB :TREF :DENS :COMANDOS ;
++ materiales :TCOMB :TREF :DENS :ElCaso ;
++ biblioteca ;
++ probabilidades ;
++ flujos [ Caso de TC] || :TCOMB ||
++        [ TR] || :TREF || [ DR] || :DENS || :COMANDOS  ;
++ SI :con_variaciones ENTONCES :
++   CopiarSalida :salida_parcial;
++ FINCOND ;
++ FIN ;  calcular
++ PROC evolucionar :paso ;
+* ESTADO
+  transferir a LOGO el tiempo ;
++ LINEA ;
++ escribe
++   [*******************************************************************] ;
++ escribe
++   [*******************************************************************] ;
++ escribe [ Se evoluciona desde:] || (:t*1.0) || [ DIAS] ;
++ hacer "TT formato :t + :paso 4 ;
++ SI :reajustar & (:paso > 0.0) ENTONCES :
++   materiales 417 305 0.685 :ElCaso ;
++   LINEA ;
++   escribe
++   [*******************************************************************] ;
++   escribe [ Primera iteración para el instante T =] || :TT || [ DIAS] ;
++   escribe
++   [*******************************************************************] ;
++   LINEA ;
++   quemado :paso [guardar] [comenzar] ;
++   biblioteca ;
++   probabilidades ;
++   flujos [] ;
++   LINEA ;
++   escribe
++    [*******************************************************************] ;
++   escribe [ Segunda iteración para el instante T =] || :TT || [ DIAS] ;
++   escribe
++    [*******************************************************************] ;
++   LINEA ;
++   quemado :paso [guardar] [continuar] ;
++   biblioteca ;
++   probabilidades ;
++   flujos [] ;
++   LINEA ;
++   escribe
++    [*******************************************************************] ;
++   escribe [ Tercera iteración para el instante T =] || :TT || [ DIAS] ;
++   escribe
++    [*******************************************************************] ;
++   LINEA ;
++   quemado :paso [guardar] [continuar] ;
++   biblioteca ;
++   probabilidades ;
++   flujos [ Caso Valores Centrales] || :ElCaso  ;
++ SINO :
++   materiales 417 305 0.685 :ElCaso ;
++   LINEA ;
++   escribe
++    [*******************************************************************] ;
++   escribe [ Única iteración para el instante T =] || :TT || [ DIAS] ;
++   escribe
++    [*******************************************************************] ;
++   LINEA ;
++   quemado :paso [guardar] [comenzar] ;
++   biblioteca ;
++   probabilidades ;
++   flujos [ Caso Valores Centrales] || :ElCaso  ;
++ FINCOND ;
+* ESTADO
+  asignar valores al tiempo :TT ;
+* ESTADO
+  transferir a LOGO el tiempo ;
++ FIN ;  evolucionar
++ PROC probar :paso ;
++ si vacia? :ARCH hacer "ARCH [MAESTRO] ;
+* ESTADO
+  transferir a LOGO el tiempo ;
++ escribe [ PRUEBA PARA EL INSTANTE:] || (:t*1.0) || [ DIAS] ;
++ quemado :paso [] [] ;
++ FIN ; probar
++ PROC salidas ;
+* IMPRIMIR
+  parametros globales,
+  definir 18 recintos con 18 entradas:
+  1   1   6   1   1
+  2   7  12   1   1
+  3  13  18   1   1
+  4  19  24   1   1
+  5  25  48   1   1
+  6  49  54   1   1
+  7  55  78   1   1
+  8  79 102   1   1
+  9 103 108   1   1
+ 10 109 114   1   1
+ 11 115 120   1   1
+ 12 121 126   1   1
+ 13 127 132   1   1
+ 14 133 138   1   1
+ 15 139 144   1   1
+ 16 145 150   1   1
+ 17 151 156   1   1
+ 18 157 162   1   1
+  potencias especificas volumetricas *
+   - multiplicador 0.453648E6 *
+   - formato fijo 5 decimales *
+   - titulo 'Potencia por barrita en W/CM2' valores por recinto ,
+  parametro 'Xe 135' valor medio ,
+  quemados formato fijo 4 decimales - valor medio  ;
++ FIN ;
++ PROC guardar_maestro :p ;
++ hacer "nom palabra "C:\CARCELDA\MAESTROS\ :ident_caso ;
++ SI :p < 10 :
++   CopiarArchivo "MAESTRO palabra :nom palabra ".00 :p ;
++ SINO :
++   SI :p < 100 :
++     CopiarArchivo "MAESTRO palabra :nom palabra ".0 :p ;
++   SINO :
++     CopiarArchivo "MAESTRO palabra :nom palabra ". :p ;
++   FINCOND ;
++ FINCOND ;
++ FIN ;
++ PROC cargar_maestro :p ;
++ hacer "nom palabra "C:\CARCELDA\MAESTROS\ :ident_caso ;
++ SI :p < 10 :
++   CopiarArchivo palabra :nom palabra ".00 :p "MAESTRO ;
++ SINO :
++   SI :p < 100 :
++     CopiarArchivo palabra :nom palabra ".0 :p "MAESTRO ;
++   SINO :
++     CopiarArchivo palabra :nom palabra ". :p "MAESTRO ;
++   FINCOND ;
++ FINCOND ;
++ hacer "primer_calculo "FALSO ;
++ hacer "ARCH [MAESTRO] ;
++ defarch :ARCH ;
++ FIN ;
++ PROC UnPaso :DDT ;
++ evolucionar :DDT ;
++ salidas ;
+* ESTADO
+  transferir a LOGO el tiempo ;
++ guardar_maestro :ipaso ;
++ LINEA LINEA ;
++ escribe
++ [*******************************************************************] ;
++ escribe [ LISTO PARA EL INSTANTE T =] || (:t*1.0) || [ DIAS] ;
++ escribe
++ [*******************************************************************] ;
++ LINEA LINEA ;
++ CopiarSalida :salida_parcial;
++ FIN ;  un_paso
++ PROC continuar :ipaso :delta :NPASOS ;
++ hacer "mostrar_concentraciones "FALSO ;
++ cargar_maestro :ipaso ;
++ salidas ;
++ CopiarSalida :salida_parcial;
++ hacer "iteracion 1 ;
++ MIENTRAS :iteracion <= :NPASOS :
++   hacer "ipaso :ipaso + :delta ;
++   UnPaso :PP0*:delta/4 ;
++   hacer "iteracion :iteracion + 1 ;
++ FINMIENTRAS ;
+* FIN DEL PROCESO ;
++ FIN ; continuar
++ PROC recalcular :ipaso :TCOMB :TREF :DENS :COMANDOS ;
++ hacer "mostrar_concentraciones "FALSO ;
++ cargar_maestro :ipaso ;
++ salidas ;
++ calcular :TCOMB :TREF :DENS :COMANDOS ;
++ salidas ;
++ FIN ; continuar
++ PROC variaciones :GM :ipaso ;
++ hacer "mostrar_concentraciones "FALSO ;
++ hacer "con_variaciones "VERDAD ;
++ cargar_maestro :ipaso ;
++ hacer "Grabar_Multiple :GM ;
++ SI :Grabar_Multiple ENTONCES :
++   hacer "nom2G palabra "C:\CARCELDA\TABLAS\ palabra :ident_caso ".2GR ;
++   hacer "nom5G palabra "C:\CARCELDA\TABLAS\ palabra :ident_caso ".5GR ;
++ FINCOND ;
++ escribe :nom2G || :nom5G ;
++ calcular  290 305 0.400 :ElCaso ;
++ calcular  290 305 0.550 :ElCaso ;
++ CopiarSalida :salida_parcial;
++ calcular  290 305 0.675 :ElCaso ;
++ CopiarSalida :salida_parcial;
++ calcular  290 305 0.750 :ElCaso ;
++ CopiarSalida :salida_parcial;
++ calcular  450 305 0.400 :ElCaso ;
++ CopiarSalida :salida_parcial;
++ calcular  450 305 0.550 :ElCaso ;
++ CopiarSalida :salida_parcial;
++ calcular  450 305 0.675 :ElCaso ;
++ calcular  450 305 0.750 :ElCaso ;
++ calcular  700 305 0.400 :ElCaso ;
++ calcular  700 305 0.550 :ElCaso ;
++ calcular  700 305 0.675 :ElCaso ;
++ calcular  700 305 0.750 :ElCaso ;
++ calcular 1000 305 0.400 :ElCaso ;
++ calcular 1000 305 0.550 :ElCaso ;
++ calcular 1000 305 0.675 :ElCaso ;
++ calcular 1000 305 0.750 :ElCaso ;
++ FIN ; variaciones
++ hacer "ARCH [MAESTRO] ;
++ defarch :ARCH ;
++ hacer "DENS_URANIO 0.0 ;
++ hacer "Grabar_Multiple "FALSO ;
+* ESTADO
+  transferir a LOGO el tiempo ;
++ hacer "ident_caso "MXX ;
++ hacer "FactPot 1.0 ;
++ hacer "PP0 37.07686*:FactPot ;
++ hacer "reajustar "FALSO ;
++ hacer "primer_calculo "VERDAD ;
++ hacer "con_variaciones "FALSO ;
++ hacer "salida_parcial "COPIAE.TXT
++ hacer "mostrar_separadores "FALSO ;
++ hacer "mostrar_concentraciones "FALSO ;
++ hacer "ElCaso [BI BE] ;
++ calcular 450 305 0.675 :ElCaso ;
++ LINEA escribe [*** +++ 450 305 0.675] ;
++ salidas ;
+* FIN DEL PROCESO
++ hacer "ipaso 0 ;
++ hacer "quem 0.0 ;
++ UnPaso 0.0 ;
+* FIN DEL PROCESO
++ hacer "iteracion 1 ;
++ MIENTRAS :iteracion <= 20 :
++   hacer "ipaso :ipaso + 2 ;
++   UnPaso :PP0/2 ;
++   hacer "iteracion :iteracion + 1 ;
++ FINMIENTRAS ;
++ hacer "iteracion 1 ;
++ MIENTRAS :iteracion <= 2 :
++   hacer "ipaso :ipaso + 4 ;
++   UnPaso :PP0 ;
++   hacer "iteracion :iteracion + 1 ;
++ FINMIENTRAS ;
++ hacer "iteracion 1 ;
++ MIENTRAS :iteracion <= 18 :
++   hacer "ipaso :ipaso + 4 ;
++   UnPaso :PP0 ;
++   hacer "iteracion :iteracion + 1 ;
++ FINMIENTRAS ;
++ SI miembro? primero [1.8%] :ElCaso ENTONCES ;
+*   FIN DEL PROCESO
++ FINCOND;
++ hacer "iteracion 1 ;
++ MIENTRAS :iteracion <= 10 :
++   hacer "ipaso :ipaso + 4 ;
++   UnPaso :PP0 ;
++   hacer "iteracion :iteracion + 1 ;
++ FINMIENTRAS ;
++ hacer "iteracion 1 ;
++ MIENTRAS :iteracion <= 1 :
++   hacer "ipaso :ipaso + 8 ;
++   UnPaso :PP0*2 ;
++   hacer "iteracion :iteracion + 1 ;
++ FINMIENTRAS ;
+* FIN DEL PROCESO

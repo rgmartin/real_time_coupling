@@ -1,0 +1,7 @@
+
+*********************************************************************
+
+   Se leyeron los datos del archivo: ENTRADA_HEXA.TXT
+   Se graba la salida en el archivo: SALIDA_HEXA.TXT
+
+*********************************************************************

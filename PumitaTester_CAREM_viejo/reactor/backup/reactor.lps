@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="reactor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="CAREMTRI.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="interpol.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\win\sysutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="reactor.lpr"/>
+        <Caret Line="144" Column="88" TopLine="118"/>
+      </Position1>
+      <Position2>
+        <Filename Value="reactor.lpr"/>
+        <Caret Line="176" Column="7" TopLine="166"/>
+      </Position2>
+      <Position3>
+        <Filename Value="reactor.lpr"/>
+        <Caret Line="169" Column="47" TopLine="154"/>
+      </Position3>
+      <Position4>
+        <Filename Value="reactor.lpr"/>
+      </Position4>
+      <Position5>
+        <Filename Value="reactor.lpr"/>
+        <Caret Line="193" Column="8" TopLine="165"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

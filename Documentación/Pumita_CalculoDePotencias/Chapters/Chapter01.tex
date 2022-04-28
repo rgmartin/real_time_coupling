@@ -1,0 +1,32 @@
+%************************************************
+\chapter{Guardar y Cargar estados}\label{ch:estados}
+
+
+
+
+\section{Experiencia inicial}
+
+Para probar las funcionalidades de guardar y cargar estados que brinda \texttt{Pumita} se realizará una experiencia con el código.
+
+La experiencia consiste en simular un transitorio sencillo (caída abrupta de barras de control de un banco).
+
+Se empleará \texttt{DT=1} segundo; \texttt{Tfinal=600} segundos = 10 minutos. En el archivo \texttt{Entrada.txt} se especifican las opciones de
+
+\texttt{OPCIONES QUEMADO CINETICA XENON SAMARIO REACOPLAMIENTO TERMOHIDRAULICO DIRECTO }
+
+La posición inicial de los bancos de barras es:
+
+\texttt{B01 := 70.0;  B02 := 112.0;  B09 := 40.0;  B11 := 0.0; 
+	\\ B13 := 0.0; B03 := 0.0;
+	B08 := 0.0;   B10 := 0.0;\\   B12 := 0.0;   B07 := 0.0;   cero := 0.0;}
+
+Para tiempo \texttt{t=10} segundos se realiza una inserción del banco 12:
+\texttt{B12=140.0}.
+
+Todos los números anteriores corresponden a inserciones de bancos de barra en cm.
+
+Los archivos \texttt{Entrada.txt} y \texttt{Salida.txt} fueron guardados en la carpeta resultados con los nombres \texttt{Entrada1.txt} y \texttt{Salida1.txt} respectivamente.
+
+Luego se realizó una corrida con las mismas características que la anterior, salvo que a mitad de tiempo de corrida (TTime= 300), se detuvo la corrida, se salvó el estado actual haciendo uso del procedimiento \texttt{Transferir} , se imprimió en pantalla el texto \texttt{Transfiriendo estado}, se cargó el estado nuevamente el procedimiento \texttt{Transferir}, y se continuó la corrida. Los archivos \texttt{Entrada.txt} y \texttt{Salida.txt} se guardaron como \texttt{Entrada2.txt} y \texttt{Salida2.txt} respectivamente en la carpeta Resultados. 
+
+Se observa que los resultados en las dos experiencias son idénticos, lo cual confirma el correcto funcionamiento de la herramienta empleada para guardar y cargar estados.

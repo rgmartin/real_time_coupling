@@ -1,0 +1,4255 @@
+
+*********************************************************************
+
+   Se leyeron los datos del archivo: ENTRADA_HEXA.TXT
+   Se graba la salida en el archivo: SALIDA.TXT
+
+*********************************************************************
+
+*****************************************************
+* CASO DE PRUEBA PARA EL CAREM CON XENON Y QUEMADO  *
+*****************************************************
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.1980
+Num Iteraciones: 190
+
+
+Cálculo Estático de Flujo:
+Tiempo para iteraciones: 0.0020
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 0.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.080
+Pot Esp Máxima: 0.244   en el canal:  45  trozo:   8
+     KE (estático) = 1.01154
+  React (estática) = 1141.0 PCM
+
+
+Método Directo:
+Tiempo para iteraciones: 0.001
+Num Iteraciones: 1
+
+
+
+*****************************************************************
+Instante = 5.0000
+
+     Potencia Total = 100.0000    
+Potencia neutrónica = 94.0026
+  Potencia Residual = 5.9974
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -0.000%
+
+Pot Esp Máxima: 0.244   en el canal:  45  trozo:   8
+       Reactividad = 0.0 PCM
+        RO/BETAEFF = 0.000 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.560
+Num Iteraciones: 434
+
+
+
+*****************************************************************
+Instante = 10.0000
+
+     Potencia Total = 24.6467    
+Potencia neutrónica = 19.5467
+  Potencia Residual = 5.1001
+    Factor de Forma = 2.171
+
+Derivada Logarítmica =    -75.189%
+
+Pot Esp Máxima: 0.063   en el canal:  45  trozo:   8
+       Reactividad = -1516.9 PCM
+        RO/BETAEFF = -1.952 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.034
+Num Iteraciones: 27
+
+
+
+*****************************************************************
+Instante = 15.0000
+
+     Potencia Total = 24.3049    
+Potencia neutrónica = 19.5220
+  Potencia Residual = 4.7829
+    Factor de Forma = 2.172
+
+Derivada Logarítmica =     -0.027%
+
+Pot Esp Máxima: 0.062   en el canal:  18  trozo:   8
+       Reactividad = -1517.3 PCM
+        RO/BETAEFF = -1.953 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.281
+Num Iteraciones: 213
+
+
+
+*****************************************************************
+Instante = 20.0000
+
+     Potencia Total = 18.5387    
+Potencia neutrónica = 14.0086
+  Potencia Residual = 4.5301
+    Factor de Forma = 2.167
+
+Derivada Logarítmica =     -7.869%
+
+Pot Esp Máxima: 0.047   en el canal:  45  trozo:   8
+       Reactividad = -1512.1 PCM
+        RO/BETAEFF = -1.946 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.261
+Num Iteraciones: 204
+
+
+
+*****************************************************************
+Instante = 25.0000
+
+     Potencia Total = 15.6432    
+Potencia neutrónica = 11.3130
+  Potencia Residual = 4.3303
+    Factor de Forma = 2.164
+
+Derivada Logarítmica =     -4.764%
+
+Pot Esp Máxima: 0.040   en el canal:  45  trozo:   8
+       Reactividad = -1508.5 PCM
+        RO/BETAEFF = -1.942 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.285
+Num Iteraciones: 210
+
+
+
+*****************************************************************
+Instante = 30.0000
+
+     Potencia Total = 13.5105    
+Potencia neutrónica = 9.3499
+  Potencia Residual = 4.1606
+    Factor de Forma = 2.161
+
+Derivada Logarítmica =     -4.198%
+
+Pot Esp Máxima: 0.034   en el canal:  45  trozo:   8
+       Reactividad = -1506.8 PCM
+        RO/BETAEFF = -1.940 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.258
+Num Iteraciones: 201
+
+
+
+*****************************************************************
+Instante = 35.0000
+
+     Potencia Total = 11.9555    
+Potencia neutrónica = 7.9413
+  Potencia Residual = 4.0142
+    Factor de Forma = 2.158
+
+Derivada Logarítmica =     -3.547%
+
+Pot Esp Máxima: 0.030   en el canal:  45  trozo:   8
+       Reactividad = -1505.9 PCM
+        RO/BETAEFF = -1.938 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.253
+Num Iteraciones: 198
+
+
+
+*****************************************************************
+Instante = 40.0000
+
+     Potencia Total = 10.7513    
+Potencia neutrónica = 6.8647
+  Potencia Residual = 3.8865
+    Factor de Forma = 2.155
+
+Derivada Logarítmica =     -3.136%
+
+Pot Esp Máxima: 0.027   en el canal:  45  trozo:   8
+       Reactividad = -1505.3 PCM
+        RO/BETAEFF = -1.938 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.251
+Num Iteraciones: 197
+
+
+
+*****************************************************************
+Instante = 45.0000
+
+     Potencia Total = 9.7861    
+Potencia neutrónica = 6.0115
+  Potencia Residual = 3.7746
+    Factor de Forma = 2.152
+
+Derivada Logarítmica =     -2.838%
+
+Pot Esp Máxima: 0.025   en el canal:  45  trozo:   8
+       Reactividad = -1504.9 PCM
+        RO/BETAEFF = -1.937 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.263
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 50.0000
+
+     Potencia Total = 8.9901    
+Potencia neutrónica = 5.3143
+  Potencia Residual = 3.6759
+    Factor de Forma = 2.150
+
+Derivada Logarítmica =     -2.624%
+
+Pot Esp Máxima: 0.023   en el canal:  45  trozo:   8
+       Reactividad = -1504.5 PCM
+        RO/BETAEFF = -1.937 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 55.0000
+
+     Potencia Total = 8.3197    
+Potencia neutrónica = 4.7312
+  Potencia Residual = 3.5885
+    Factor de Forma = 2.147
+
+Derivada Logarítmica =     -2.465%
+
+Pot Esp Máxima: 0.021   en el canal:  45  trozo:   8
+       Reactividad = -1504.1 PCM
+        RO/BETAEFF = -1.936 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.247
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 60.0000
+
+     Potencia Total = 7.7458    
+Potencia neutrónica = 4.2350
+  Potencia Residual = 3.5108
+    Factor de Forma = 2.145
+
+Derivada Logarítmica =     -2.343%
+
+Pot Esp Máxima: 0.019   en el canal:  45  trozo:   8
+       Reactividad = -1503.8 PCM
+        RO/BETAEFF = -1.936 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.267
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 65.0000
+
+     Potencia Total = 7.2486    
+Potencia neutrónica = 3.8071
+  Potencia Residual = 3.4415
+    Factor de Forma = 2.142
+
+Derivada Logarítmica =     -2.248%
+
+Pot Esp Máxima: 0.018   en el canal:  45  trozo:   8
+       Reactividad = -1503.5 PCM
+        RO/BETAEFF = -1.935 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.248
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 70.0000
+
+     Potencia Total = 6.8136    
+Potencia neutrónica = 3.4341
+  Potencia Residual = 3.3794
+    Factor de Forma = 2.140
+
+Derivada Logarítmica =     -2.172%
+
+Pot Esp Máxima: 0.017   en el canal:  45  trozo:   8
+       Reactividad = -1503.2 PCM
+        RO/BETAEFF = -1.935 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.248
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 75.0000
+
+     Potencia Total = 6.4302    
+Potencia neutrónica = 3.1066
+  Potencia Residual = 3.3236
+    Factor de Forma = 2.137
+
+Derivada Logarítmica =     -2.109%
+
+Pot Esp Máxima: 0.016   en el canal:  45  trozo:   8
+       Reactividad = -1503.0 PCM
+        RO/BETAEFF = -1.935 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.248
+Num Iteraciones: 193
+
+
+
+*****************************************************************
+Instante = 80.0000
+
+     Potencia Total = 6.0904    
+Potencia neutrónica = 2.8171
+  Potencia Residual = 3.2733
+    Factor de Forma = 2.135
+
+Derivada Logarítmica =     -2.055%
+
+Pot Esp Máxima: 0.015   en el canal:  45  trozo:   8
+       Reactividad = -1502.7 PCM
+        RO/BETAEFF = -1.934 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.246
+Num Iteraciones: 192
+
+
+
+*****************************************************************
+Instante = 85.0000
+
+     Potencia Total = 5.7876    
+Potencia neutrónica = 2.5600
+  Potencia Residual = 3.2276
+    Factor de Forma = 2.133
+
+Derivada Logarítmica =     -2.009%
+
+Pot Esp Máxima: 0.014   en el canal:  45  trozo:   8
+       Reactividad = -1502.4 PCM
+        RO/BETAEFF = -1.934 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.247
+Num Iteraciones: 192
+
+
+
+*****************************************************************
+Instante = 90.0000
+
+     Potencia Total = 5.5168    
+Potencia neutrónica = 2.3307
+  Potencia Residual = 3.1861
+    Factor de Forma = 2.130
+
+Derivada Logarítmica =     -1.968%
+
+Pot Esp Máxima: 0.014   en el canal:  45  trozo:   8
+       Reactividad = -1502.2 PCM
+        RO/BETAEFF = -1.934 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 191
+
+
+
+*****************************************************************
+Instante = 95.0000
+
+     Potencia Total = 5.2736    
+Potencia neutrónica = 2.1255
+  Potencia Residual = 3.1481
+    Factor de Forma = 2.128
+
+Derivada Logarítmica =     -1.930%
+
+Pot Esp Máxima: 0.013   en el canal:  45  trozo:   8
+       Reactividad = -1502.0 PCM
+        RO/BETAEFF = -1.933 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.252
+Num Iteraciones: 190
+
+
+
+*****************************************************************
+Instante = 100.0000
+
+     Potencia Total = 5.0547    
+Potencia neutrónica = 1.9415
+  Potencia Residual = 3.1132
+    Factor de Forma = 2.126
+
+Derivada Logarítmica =     -1.896%
+
+Pot Esp Máxima: 0.013   en el canal:  45  trozo:   8
+       Reactividad = -1501.8 PCM
+        RO/BETAEFF = -1.933 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 105.0000
+
+     Potencia Total = 4.8571    
+Potencia neutrónica = 1.7760
+  Potencia Residual = 3.0811
+    Factor de Forma = 2.124
+
+Derivada Logarítmica =     -1.864%
+
+Pot Esp Máxima: 0.012   en el canal:  45  trozo:   8
+       Reactividad = -1501.6 PCM
+        RO/BETAEFF = -1.933 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 110.0000
+
+     Potencia Total = 4.6782    
+Potencia neutrónica = 1.6268
+  Potencia Residual = 3.0513
+    Factor de Forma = 2.122
+
+Derivada Logarítmica =     -1.834%
+
+Pot Esp Máxima: 0.012   en el canal:  45  trozo:   8
+       Reactividad = -1501.4 PCM
+        RO/BETAEFF = -1.933 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 191
+
+
+
+*****************************************************************
+Instante = 115.0000
+
+     Potencia Total = 4.5159    
+Potencia neutrónica = 1.4922
+  Potencia Residual = 3.0237
+    Factor de Forma = 2.120
+
+Derivada Logarítmica =     -1.805%
+
+Pot Esp Máxima: 0.011   en el canal:  45  trozo:   8
+       Reactividad = -1501.2 PCM
+        RO/BETAEFF = -1.932 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.242
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 120.0000
+
+     Potencia Total = 4.3683    
+Potencia neutrónica = 1.3704
+  Potencia Residual = 2.9979
+    Factor de Forma = 2.118
+
+Derivada Logarítmica =     -1.777%
+
+Pot Esp Máxima: 0.011   en el canal:  45  trozo:   8
+       Reactividad = -1501.0 PCM
+        RO/BETAEFF = -1.932 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.242
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 125.0000
+
+     Potencia Total = 4.2338    
+Potencia neutrónica = 1.2601
+  Potencia Residual = 2.9737
+    Factor de Forma = 2.116
+
+Derivada Logarítmica =     -1.751%
+
+Pot Esp Máxima: 0.010   en el canal:  45  trozo:   8
+       Reactividad = -1500.9 PCM
+        RO/BETAEFF = -1.932 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 188
+
+
+
+*****************************************************************
+Instante = 130.0000
+
+     Potencia Total = 4.1110    
+Potencia neutrónica = 1.1600
+  Potencia Residual = 2.9510
+    Factor de Forma = 2.114
+
+Derivada Logarítmica =     -1.725%
+
+Pot Esp Máxima: 0.010   en el canal:  45  trozo:   8
+       Reactividad = -1500.7 PCM
+        RO/BETAEFF = -1.932 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 188
+
+
+
+*****************************************************************
+Instante = 135.0000
+
+     Potencia Total = 3.9986    
+Potencia neutrónica = 1.0691
+  Potencia Residual = 2.9295
+    Factor de Forma = 2.112
+
+Derivada Logarítmica =     -1.701%
+
+Pot Esp Máxima: 0.010   en el canal:  45  trozo:   8
+       Reactividad = -1500.6 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 140.0000
+
+     Potencia Total = 3.8955    
+Potencia neutrónica = 0.9864
+  Potencia Residual = 2.9091
+    Factor de Forma = 2.111
+
+Derivada Logarítmica =     -1.677%
+
+Pot Esp Máxima: 0.010   en el canal:  45  trozo:   8
+       Reactividad = -1500.4 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 145.0000
+
+     Potencia Total = 3.8009    
+Potencia neutrónica = 0.9111
+  Potencia Residual = 2.8898
+    Factor de Forma = 2.109
+
+Derivada Logarítmica =     -1.654%
+
+Pot Esp Máxima: 0.009   en el canal:  45  trozo:   8
+       Reactividad = -1500.3 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 150.0000
+
+     Potencia Total = 3.7137    
+Potencia neutrónica = 0.8423
+  Potencia Residual = 2.8714
+    Factor de Forma = 2.108
+
+Derivada Logarítmica =     -1.631%
+
+Pot Esp Máxima: 0.009   en el canal:  45  trozo:   8
+       Reactividad = -1500.2 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.237
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 155.0000
+
+     Potencia Total = 3.6334    
+Potencia neutrónica = 0.7796
+  Potencia Residual = 2.8538
+    Factor de Forma = 2.106
+
+Derivada Logarítmica =     -1.610%
+
+Pot Esp Máxima: 0.009   en el canal:  45  trozo:   8
+       Reactividad = -1500.1 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 160.0000
+
+     Potencia Total = 3.5591    
+Potencia neutrónica = 0.7222
+  Potencia Residual = 2.8369
+    Factor de Forma = 2.105
+
+Derivada Logarítmica =     -1.589%
+
+Pot Esp Máxima: 0.009   en el canal:  45  trozo:   8
+       Reactividad = -1500.0 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 165.0000
+
+     Potencia Total = 3.4903    
+Potencia neutrónica = 0.6697
+  Potencia Residual = 2.8206
+    Factor de Forma = 2.103
+
+Derivada Logarítmica =     -1.569%
+
+Pot Esp Máxima: 0.009   en el canal:  45  trozo:   8
+       Reactividad = -1499.9 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 170.0000
+
+     Potencia Total = 3.4265    
+Potencia neutrónica = 0.6215
+  Potencia Residual = 2.8050
+    Factor de Forma = 2.102
+
+Derivada Logarítmica =     -1.550%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.8 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 175.0000
+
+     Potencia Total = 3.3672    
+Potencia neutrónica = 0.5773
+  Potencia Residual = 2.7899
+    Factor de Forma = 2.101
+
+Derivada Logarítmica =     -1.531%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.8 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 180.0000
+
+     Potencia Total = 3.3120    
+Potencia neutrónica = 0.5367
+  Potencia Residual = 2.7753
+    Factor de Forma = 2.100
+
+Derivada Logarítmica =     -1.514%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.7 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.245
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 185.0000
+
+     Potencia Total = 3.2604    
+Potencia neutrónica = 0.4993
+  Potencia Residual = 2.7611
+    Factor de Forma = 2.099
+
+Derivada Logarítmica =     -1.497%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.6 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 190.0000
+
+     Potencia Total = 3.2123    
+Potencia neutrónica = 0.4649
+  Potencia Residual = 2.7474
+    Factor de Forma = 2.098
+
+Derivada Logarítmica =     -1.480%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.6 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.242
+Num Iteraciones: 188
+
+
+
+*****************************************************************
+Instante = 195.0000
+
+     Potencia Total = 3.1672    
+Potencia neutrónica = 0.4332
+  Potencia Residual = 2.7340
+    Factor de Forma = 2.097
+
+Derivada Logarítmica =     -1.465%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.5 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.251
+Num Iteraciones: 188
+
+
+
+*****************************************************************
+Instante = 200.0000
+
+     Potencia Total = 3.1249    
+Potencia neutrónica = 0.4039
+  Potencia Residual = 2.7210
+    Factor de Forma = 2.096
+
+Derivada Logarítmica =     -1.450%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.5 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.242
+Num Iteraciones: 188
+
+
+
+*****************************************************************
+Instante = 205.0000
+
+     Potencia Total = 3.0852    
+Potencia neutrónica = 0.3769
+  Potencia Residual = 2.7083
+    Factor de Forma = 2.095
+
+Derivada Logarítmica =     -1.436%
+
+Pot Esp Máxima: 0.008   en el canal:  45  trozo:   8
+       Reactividad = -1499.4 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.242
+Num Iteraciones: 188
+
+
+
+*****************************************************************
+Instante = 210.0000
+
+     Potencia Total = 3.0478    
+Potencia neutrónica = 0.3518
+  Potencia Residual = 2.6960
+    Factor de Forma = 2.094
+
+Derivada Logarítmica =     -1.422%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.4 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.298
+Num Iteraciones: 231
+
+
+
+*****************************************************************
+Instante = 215.0000
+
+     Potencia Total = 3.0126    
+Potencia neutrónica = 0.3287
+  Potencia Residual = 2.6839
+    Factor de Forma = 2.094
+
+Derivada Logarítmica =     -1.404%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1498.5 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 220.0000
+
+     Potencia Total = 2.9793    
+Potencia neutrónica = 0.3072
+  Potencia Residual = 2.6721
+    Factor de Forma = 2.093
+
+Derivada Logarítmica =     -1.402%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.2 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.300
+Num Iteraciones: 231
+
+
+
+*****************************************************************
+Instante = 225.0000
+
+     Potencia Total = 2.9479    
+Potencia neutrónica = 0.2874
+  Potencia Residual = 2.6605
+    Factor de Forma = 2.092
+
+Derivada Logarítmica =     -1.380%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1498.4 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 230.0000
+
+     Potencia Total = 2.9180    
+Potencia neutrónica = 0.2688
+  Potencia Residual = 2.6492
+    Factor de Forma = 2.092
+
+Derivada Logarítmica =     -1.380%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.2 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.326
+Num Iteraciones: 252
+
+
+
+*****************************************************************
+Instante = 235.0000
+
+     Potencia Total = 2.8898    
+Potencia neutrónica = 0.2517
+  Potencia Residual = 2.6381
+    Factor de Forma = 2.091
+
+Derivada Logarítmica =     -1.365%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.2 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 240.0000
+
+     Potencia Total = 2.8629    
+Potencia neutrónica = 0.2357
+  Potencia Residual = 2.6272
+    Factor de Forma = 2.090
+
+Derivada Logarítmica =     -1.354%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.1 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.244
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 245.0000
+
+     Potencia Total = 2.8374    
+Potencia neutrónica = 0.2208
+  Potencia Residual = 2.6166
+    Factor de Forma = 2.090
+
+Derivada Logarítmica =     -1.345%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.1 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 250.0000
+
+     Potencia Total = 2.8131    
+Potencia neutrónica = 0.2070
+  Potencia Residual = 2.6061
+    Factor de Forma = 2.089
+
+Derivada Logarítmica =     -1.337%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.0 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.242
+Num Iteraciones: 189
+
+
+
+*****************************************************************
+Instante = 255.0000
+
+     Potencia Total = 2.7900    
+Potencia neutrónica = 0.1941
+  Potencia Residual = 2.5958
+    Factor de Forma = 2.089
+
+Derivada Logarítmica =     -1.328%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.0 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 260.0000
+
+     Potencia Total = 2.7678    
+Potencia neutrónica = 0.1821
+  Potencia Residual = 2.5857
+    Factor de Forma = 2.088
+
+Derivada Logarítmica =     -1.320%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.0 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 265.0000
+
+     Potencia Total = 2.7467    
+Potencia neutrónica = 0.1709
+  Potencia Residual = 2.5758
+    Factor de Forma = 2.088
+
+Derivada Logarítmica =     -1.313%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1499.0 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 270.0000
+
+     Potencia Total = 2.7265    
+Potencia neutrónica = 0.1604
+  Potencia Residual = 2.5661
+    Factor de Forma = 2.088
+
+Derivada Logarítmica =     -1.306%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1498.9 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 275.0000
+
+     Potencia Total = 2.7071    
+Potencia neutrónica = 0.1506
+  Potencia Residual = 2.5565
+    Factor de Forma = 2.087
+
+Derivada Logarítmica =     -1.300%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1498.9 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.237
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 280.0000
+
+     Potencia Total = 2.6885    
+Potencia neutrónica = 0.1415
+  Potencia Residual = 2.5470
+    Factor de Forma = 2.087
+
+Derivada Logarítmica =     -1.294%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1498.9 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.250
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 285.0000
+
+     Potencia Total = 2.6707    
+Potencia neutrónica = 0.1329
+  Potencia Residual = 2.5378
+    Factor de Forma = 2.087
+
+Derivada Logarítmica =     -1.288%
+
+Pot Esp Máxima: 0.007   en el canal:  45  trozo:   8
+       Reactividad = -1498.8 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.237
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 290.0000
+
+     Potencia Total = 2.6535    
+Potencia neutrónica = 0.1249
+  Potencia Residual = 2.5286
+    Factor de Forma = 2.086
+
+Derivada Logarítmica =     -1.282%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.8 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 295.0000
+
+     Potencia Total = 2.6370    
+Potencia neutrónica = 0.1174
+  Potencia Residual = 2.5196
+    Factor de Forma = 2.086
+
+Derivada Logarítmica =     -1.277%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.8 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.238
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 300.0000
+
+     Potencia Total = 2.6211    
+Potencia neutrónica = 0.1104
+  Potencia Residual = 2.5108
+    Factor de Forma = 2.086
+
+Derivada Logarítmica =     -1.273%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.8 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 305.0000
+
+     Potencia Total = 2.6058    
+Potencia neutrónica = 0.1038
+  Potencia Residual = 2.5020
+    Factor de Forma = 2.085
+
+Derivada Logarítmica =     -1.268%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.7 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.238
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 310.0000
+
+     Potencia Total = 2.5911    
+Potencia neutrónica = 0.0976
+  Potencia Residual = 2.4935
+    Factor de Forma = 2.085
+
+Derivada Logarítmica =     -1.264%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.7 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 315.0000
+
+     Potencia Total = 2.5768    
+Potencia neutrónica = 0.0918
+  Potencia Residual = 2.4850
+    Factor de Forma = 2.085
+
+Derivada Logarítmica =     -1.260%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.7 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 320.0000
+
+     Potencia Total = 2.5631    
+Potencia neutrónica = 0.0864
+  Potencia Residual = 2.4766
+    Factor de Forma = 2.085
+
+Derivada Logarítmica =     -1.256%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.6 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 325.0000
+
+     Potencia Total = 2.5497    
+Potencia neutrónica = 0.0813
+  Potencia Residual = 2.4684
+    Factor de Forma = 2.084
+
+Derivada Logarítmica =     -1.253%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.6 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 330.0000
+
+     Potencia Total = 2.5369    
+Potencia neutrónica = 0.0765
+  Potencia Residual = 2.4603
+    Factor de Forma = 2.084
+
+Derivada Logarítmica =     -1.250%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.6 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.241
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 335.0000
+
+     Potencia Total = 2.5244    
+Potencia neutrónica = 0.0720
+  Potencia Residual = 2.4523
+    Factor de Forma = 2.084
+
+Derivada Logarítmica =     -1.247%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.5 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 340.0000
+
+     Potencia Total = 2.5123    
+Potencia neutrónica = 0.0678
+  Potencia Residual = 2.4445
+    Factor de Forma = 2.084
+
+Derivada Logarítmica =     -1.244%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.5 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.244
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 345.0000
+
+     Potencia Total = 2.5006    
+Potencia neutrónica = 0.0639
+  Potencia Residual = 2.4367
+    Factor de Forma = 2.084
+
+Derivada Logarítmica =     -1.241%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.5 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 350.0000
+
+     Potencia Total = 2.4892    
+Potencia neutrónica = 0.0601
+  Potencia Residual = 2.4291
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.239%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.4 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.239
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 355.0000
+
+     Potencia Total = 2.4782    
+Potencia neutrónica = 0.0566
+  Potencia Residual = 2.4215
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.236%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.4 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.240
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 360.0000
+
+     Potencia Total = 2.4674    
+Potencia neutrónica = 0.0533
+  Potencia Residual = 2.4141
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.234%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.4 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.254
+Num Iteraciones: 185
+
+
+
+*****************************************************************
+Instante = 365.0000
+
+     Potencia Total = 2.4570    
+Potencia neutrónica = 0.0503
+  Potencia Residual = 2.4067
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.232%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.3 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.278
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 370.0000
+
+     Potencia Total = 2.4468    
+Potencia neutrónica = 0.0473
+  Potencia Residual = 2.3995
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.230%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.3 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.323
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 375.0000
+
+     Potencia Total = 2.4369    
+Potencia neutrónica = 0.0446
+  Potencia Residual = 2.3923
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.228%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.3 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.297
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 380.0000
+
+     Potencia Total = 2.4273    
+Potencia neutrónica = 0.0420
+  Potencia Residual = 2.3853
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.227%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.2 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.309
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 385.0000
+
+     Potencia Total = 2.4179    
+Potencia neutrónica = 0.0396
+  Potencia Residual = 2.3783
+    Factor de Forma = 2.083
+
+Derivada Logarítmica =     -1.225%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.2 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.321
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 390.0000
+
+     Potencia Total = 2.4088    
+Potencia neutrónica = 0.0373
+  Potencia Residual = 2.3715
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.224%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.2 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.316
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 395.0000
+
+     Potencia Total = 2.3999    
+Potencia neutrónica = 0.0352
+  Potencia Residual = 2.3647
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.222%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.1 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.309
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 400.0000
+
+     Potencia Total = 2.3912    
+Potencia neutrónica = 0.0331
+  Potencia Residual = 2.3580
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.221%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.1 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.286
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 405.0000
+
+     Potencia Total = 2.3827    
+Potencia neutrónica = 0.0312
+  Potencia Residual = 2.3514
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.220%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.1 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.275
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 410.0000
+
+     Potencia Total = 2.3744    
+Potencia neutrónica = 0.0294
+  Potencia Residual = 2.3449
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.219%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.0 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.251
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 415.0000
+
+     Potencia Total = 2.3662    
+Potencia neutrónica = 0.0278
+  Potencia Residual = 2.3385
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.218%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.0 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.272
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 420.0000
+
+     Potencia Total = 2.3583    
+Potencia neutrónica = 0.0262
+  Potencia Residual = 2.3321
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.217%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1498.0 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.250
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 425.0000
+
+     Potencia Total = 2.3505    
+Potencia neutrónica = 0.0247
+  Potencia Residual = 2.3259
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.216%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.9 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.375
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 430.0000
+
+     Potencia Total = 2.3429    
+Potencia neutrónica = 0.0232
+  Potencia Residual = 2.3197
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.215%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.9 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.454
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 435.0000
+
+     Potencia Total = 2.3355    
+Potencia neutrónica = 0.0219
+  Potencia Residual = 2.3136
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.214%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.8 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.382
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 440.0000
+
+     Potencia Total = 2.3282    
+Potencia neutrónica = 0.0207
+  Potencia Residual = 2.3075
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.214%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.8 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.251
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 445.0000
+
+     Potencia Total = 2.3211    
+Potencia neutrónica = 0.0195
+  Potencia Residual = 2.3016
+    Factor de Forma = 2.082
+
+Derivada Logarítmica =     -1.213%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.8 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.266
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 450.0000
+
+     Potencia Total = 2.3141    
+Potencia neutrónica = 0.0184
+  Potencia Residual = 2.2957
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.212%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.7 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.282
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 455.0000
+
+     Potencia Total = 2.3072    
+Potencia neutrónica = 0.0173
+  Potencia Residual = 2.2899
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.212%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.7 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.263
+Num Iteraciones: 186
+
+
+
+*****************************************************************
+Instante = 460.0000
+
+     Potencia Total = 2.3005    
+Potencia neutrónica = 0.0163
+  Potencia Residual = 2.2842
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.211%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.7 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.282
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 465.0000
+
+     Potencia Total = 2.2939    
+Potencia neutrónica = 0.0154
+  Potencia Residual = 2.2785
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.211%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.6 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.256
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 470.0000
+
+     Potencia Total = 2.2874    
+Potencia neutrónica = 0.0145
+  Potencia Residual = 2.2729
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.210%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.6 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.252
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 475.0000
+
+     Potencia Total = 2.2810    
+Potencia neutrónica = 0.0137
+  Potencia Residual = 2.2673
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.210%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.5 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 480.0000
+
+     Potencia Total = 2.2748    
+Potencia neutrónica = 0.0129
+  Potencia Residual = 2.2619
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.209%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.5 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.251
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 485.0000
+
+     Potencia Total = 2.2687    
+Potencia neutrónica = 0.0122
+  Potencia Residual = 2.2565
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.209%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.5 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.287
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 490.0000
+
+     Potencia Total = 2.2626    
+Potencia neutrónica = 0.0115
+  Potencia Residual = 2.2511
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.209%
+
+Pot Esp Máxima: 0.006   en el canal:  45  trozo:   8
+       Reactividad = -1497.4 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.279
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 495.0000
+
+     Potencia Total = 2.2567    
+Potencia neutrónica = 0.0108
+  Potencia Residual = 2.2459
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.208%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.4 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.455
+Num Iteraciones: 187
+
+
+
+*****************************************************************
+Instante = 500.0000
+
+     Potencia Total = 2.2509    
+Potencia neutrónica = 0.0102
+  Potencia Residual = 2.2407
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.208%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.4 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.438
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 505.0000
+
+     Potencia Total = 2.2451    
+Potencia neutrónica = 0.0096
+  Potencia Residual = 2.2355
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.208%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.3 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.318
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 510.0000
+
+     Potencia Total = 2.2395    
+Potencia neutrónica = 0.0091
+  Potencia Residual = 2.2304
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.207%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.3 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.417
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 515.0000
+
+     Potencia Total = 2.2339    
+Potencia neutrónica = 0.0086
+  Potencia Residual = 2.2254
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.207%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.3 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.378
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 520.0000
+
+     Potencia Total = 2.2285    
+Potencia neutrónica = 0.0081
+  Potencia Residual = 2.2204
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.207%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.3 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.323
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 525.0000
+
+     Potencia Total = 2.2231    
+Potencia neutrónica = 0.0076
+  Potencia Residual = 2.2155
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.207%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.2 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.371
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 530.0000
+
+     Potencia Total = 2.2178    
+Potencia neutrónica = 0.0072
+  Potencia Residual = 2.2106
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.206%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.2 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.353
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 535.0000
+
+     Potencia Total = 2.2126    
+Potencia neutrónica = 0.0068
+  Potencia Residual = 2.2058
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.206%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.2 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.349
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 540.0000
+
+     Potencia Total = 2.2075    
+Potencia neutrónica = 0.0064
+  Potencia Residual = 2.2011
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.206%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.1 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.348
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 545.0000
+
+     Potencia Total = 2.2024    
+Potencia neutrónica = 0.0060
+  Potencia Residual = 2.1964
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.206%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.1 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.393
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 550.0000
+
+     Potencia Total = 2.1974    
+Potencia neutrónica = 0.0057
+  Potencia Residual = 2.1917
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.206%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.1 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.346
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 555.0000
+
+     Potencia Total = 2.1925    
+Potencia neutrónica = 0.0054
+  Potencia Residual = 2.1871
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.0 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.332
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 560.0000
+
+     Potencia Total = 2.1876    
+Potencia neutrónica = 0.0051
+  Potencia Residual = 2.1826
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.0 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.323
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 565.0000
+
+     Potencia Total = 2.1829    
+Potencia neutrónica = 0.0048
+  Potencia Residual = 2.1781
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.0 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.285
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 570.0000
+
+     Potencia Total = 2.1781    
+Potencia neutrónica = 0.0045
+  Potencia Residual = 2.1736
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.9 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.289
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 575.0000
+
+     Potencia Total = 2.1735    
+Potencia neutrónica = 0.0042
+  Potencia Residual = 2.1692
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.9 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.274
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 580.0000
+
+     Potencia Total = 2.1689    
+Potencia neutrónica = 0.0040
+  Potencia Residual = 2.1649
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.9 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.261
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 585.0000
+
+     Potencia Total = 2.1644    
+Potencia neutrónica = 0.0038
+  Potencia Residual = 2.1606
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.9 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.263
+Num Iteraciones: 181
+
+
+
+*****************************************************************
+Instante = 590.0000
+
+     Potencia Total = 2.1599    
+Potencia neutrónica = 0.0036
+  Potencia Residual = 2.1563
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.205%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.8 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.258
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 595.0000
+
+     Potencia Total = 2.1555    
+Potencia neutrónica = 0.0034
+  Potencia Residual = 2.1521
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.8 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.279
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 600.0000
+
+     Potencia Total = 2.1511    
+Potencia neutrónica = 0.0032
+  Potencia Residual = 2.1480
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.8 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.281
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 605.0000
+
+     Potencia Total = 2.1468    
+Potencia neutrónica = 0.0030
+  Potencia Residual = 2.1438
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.276
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 610.0000
+
+     Potencia Total = 2.1426    
+Potencia neutrónica = 0.0028
+  Potencia Residual = 2.1398
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 615.0000
+
+     Potencia Total = 2.1384    
+Potencia neutrónica = 0.0027
+  Potencia Residual = 2.1357
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.271
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 620.0000
+
+     Potencia Total = 2.1342    
+Potencia neutrónica = 0.0025
+  Potencia Residual = 2.1317
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.257
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 625.0000
+
+     Potencia Total = 2.1301    
+Potencia neutrónica = 0.0024
+  Potencia Residual = 2.1278
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.270
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 630.0000
+
+     Potencia Total = 2.1261    
+Potencia neutrónica = 0.0022
+  Potencia Residual = 2.1239
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 635.0000
+
+     Potencia Total = 2.1221    
+Potencia neutrónica = 0.0021
+  Potencia Residual = 2.1200
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.287
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 640.0000
+
+     Potencia Total = 2.1181    
+Potencia neutrónica = 0.0020
+  Potencia Residual = 2.1162
+    Factor de Forma = 2.081
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.248
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 645.0000
+
+     Potencia Total = 2.1142    
+Potencia neutrónica = 0.0019
+  Potencia Residual = 2.1124
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.258
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 650.0000
+
+     Potencia Total = 2.1104    
+Potencia neutrónica = 0.0018
+  Potencia Residual = 2.1086
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.264
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 655.0000
+
+     Potencia Total = 2.1066    
+Potencia neutrónica = 0.0017
+  Potencia Residual = 2.1049
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.204%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.277
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 660.0000
+
+     Potencia Total = 2.1028    
+Potencia neutrónica = 0.0016
+  Potencia Residual = 2.1012
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.265
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 665.0000
+
+     Potencia Total = 2.0990    
+Potencia neutrónica = 0.0015
+  Potencia Residual = 2.0976
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.281
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 670.0000
+
+     Potencia Total = 2.0953    
+Potencia neutrónica = 0.0014
+  Potencia Residual = 2.0939
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.268
+Num Iteraciones: 182
+
+
+
+*****************************************************************
+Instante = 675.0000
+
+     Potencia Total = 2.0917    
+Potencia neutrónica = 0.0013
+  Potencia Residual = 2.0904
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.5 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.243
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 680.0000
+
+     Potencia Total = 2.0881    
+Potencia neutrónica = 0.0012
+  Potencia Residual = 2.0868
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.5 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.275
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 685.0000
+
+     Potencia Total = 2.0845    
+Potencia neutrónica = 0.0012
+  Potencia Residual = 2.0833
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.5 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.282
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 690.0000
+
+     Potencia Total = 2.0810    
+Potencia neutrónica = 0.0011
+  Potencia Residual = 2.0799
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.5 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.268
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 695.0000
+
+     Potencia Total = 2.0775    
+Potencia neutrónica = 0.0010
+  Potencia Residual = 2.0764
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.270
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 700.0000
+
+     Potencia Total = 2.0740    
+Potencia neutrónica = 0.0010
+  Potencia Residual = 2.0730
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.260
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 705.0000
+
+     Potencia Total = 2.0706    
+Potencia neutrónica = 0.0009
+  Potencia Residual = 2.0696
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.275
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 710.0000
+
+     Potencia Total = 2.0672    
+Potencia neutrónica = 0.0009
+  Potencia Residual = 2.0663
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.268
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 715.0000
+
+     Potencia Total = 2.0638    
+Potencia neutrónica = 0.0008
+  Potencia Residual = 2.0630
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.281
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 720.0000
+
+     Potencia Total = 2.0605    
+Potencia neutrónica = 0.0008
+  Potencia Residual = 2.0597
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.203%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.6 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.268
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 725.0000
+
+     Potencia Total = 2.0572    
+Potencia neutrónica = 0.0007
+  Potencia Residual = 2.0564
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.271
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 730.0000
+
+     Potencia Total = 2.0539    
+Potencia neutrónica = 0.0007
+  Potencia Residual = 2.0532
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.926 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.246
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 735.0000
+
+     Potencia Total = 2.0507    
+Potencia neutrónica = 0.0007
+  Potencia Residual = 2.0500
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.7 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.255
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 740.0000
+
+     Potencia Total = 2.0475    
+Potencia neutrónica = 0.0006
+  Potencia Residual = 2.0469
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.8 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.295
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 745.0000
+
+     Potencia Total = 2.0443    
+Potencia neutrónica = 0.0006
+  Potencia Residual = 2.0437
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.8 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.273
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 750.0000
+
+     Potencia Total = 2.0412    
+Potencia neutrónica = 0.0005
+  Potencia Residual = 2.0406
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.8 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.343
+Num Iteraciones: 183
+
+
+
+*****************************************************************
+Instante = 755.0000
+
+     Potencia Total = 2.0380    
+Potencia neutrónica = 0.0005
+  Potencia Residual = 2.0375
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.9 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.289
+Num Iteraciones: 184
+
+
+
+*****************************************************************
+Instante = 760.0000
+
+     Potencia Total = 2.0350    
+Potencia neutrónica = 0.0005
+  Potencia Residual = 2.0345
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1496.9 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.289
+Num Iteraciones: 184
+
+
+
+*****************************************************************
+Instante = 765.0000
+
+     Potencia Total = 2.0319    
+Potencia neutrónica = 0.0005
+  Potencia Residual = 2.0314
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.201%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.0 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.290
+Num Iteraciones: 184
+
+
+
+*****************************************************************
+Instante = 770.0000
+
+     Potencia Total = 2.0289    
+Potencia neutrónica = 0.0004
+  Potencia Residual = 2.0284
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.201%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.1 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.281
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 775.0000
+
+     Potencia Total = 2.0259    
+Potencia neutrónica = 0.0004
+  Potencia Residual = 2.0255
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.201%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.1 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.268
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 780.0000
+
+     Potencia Total = 2.0229    
+Potencia neutrónica = 0.0004
+  Potencia Residual = 2.0225
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.202%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.2 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.261
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 785.0000
+
+     Potencia Total = 2.0200    
+Potencia neutrónica = 0.0004
+  Potencia Residual = 2.0196
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.201%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.3 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 790.0000
+
+     Potencia Total = 2.0170    
+Potencia neutrónica = 0.0003
+  Potencia Residual = 2.0167
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.201%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.4 PCM
+        RO/BETAEFF = -1.927 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.265
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 795.0000
+
+     Potencia Total = 2.0141    
+Potencia neutrónica = 0.0003
+  Potencia Residual = 2.0138
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.201%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.5 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.267
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 800.0000
+
+     Potencia Total = 2.0113    
+Potencia neutrónica = 0.0003
+  Potencia Residual = 2.0110
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.200%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.6 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.280
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 805.0000
+
+     Potencia Total = 2.0084    
+Potencia neutrónica = 0.0003
+  Potencia Residual = 2.0081
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.200%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.8 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.326
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 810.0000
+
+     Potencia Total = 2.0056    
+Potencia neutrónica = 0.0003
+  Potencia Residual = 2.0053
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.200%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1497.9 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.273
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 815.0000
+
+     Potencia Total = 2.0028    
+Potencia neutrónica = 0.0003
+  Potencia Residual = 2.0025
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.200%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1498.0 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.268
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 820.0000
+
+     Potencia Total = 2.0000    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9998
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.199%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1498.2 PCM
+        RO/BETAEFF = -1.928 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.278
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 825.0000
+
+     Potencia Total = 1.9973    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9970
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.199%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1498.3 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.265
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 830.0000
+
+     Potencia Total = 1.9945    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9943
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.199%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1498.5 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.296
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 835.0000
+
+     Potencia Total = 1.9918    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9916
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.199%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1498.7 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.322
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 840.0000
+
+     Potencia Total = 1.9892    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9890
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.198%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1498.9 PCM
+        RO/BETAEFF = -1.929 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.278
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 845.0000
+
+     Potencia Total = 1.9865    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9863
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.198%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1499.1 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.262
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 850.0000
+
+     Potencia Total = 1.9838    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9837
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.198%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1499.4 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.262
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 855.0000
+
+     Potencia Total = 1.9812    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9811
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.197%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1499.6 PCM
+        RO/BETAEFF = -1.930 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.266
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 860.0000
+
+     Potencia Total = 1.9786    
+Potencia neutrónica = 0.0002
+  Potencia Residual = 1.9785
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.197%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1499.9 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.298
+Num Iteraciones: 195
+
+
+
+*****************************************************************
+Instante = 865.0000
+
+     Potencia Total = 1.9760    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9759
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.197%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1500.2 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.298
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 870.0000
+
+     Potencia Total = 1.9735    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9733
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.196%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1500.5 PCM
+        RO/BETAEFF = -1.931 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.295
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 875.0000
+
+     Potencia Total = 1.9709    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9708
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.196%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1500.8 PCM
+        RO/BETAEFF = -1.932 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.289
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 880.0000
+
+     Potencia Total = 1.9684    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9683
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.195%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1501.1 PCM
+        RO/BETAEFF = -1.932 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.278
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 885.0000
+
+     Potencia Total = 1.9659    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9658
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.195%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1501.5 PCM
+        RO/BETAEFF = -1.933 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.339
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 890.0000
+
+     Potencia Total = 1.9634    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9633
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.194%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1501.9 PCM
+        RO/BETAEFF = -1.933 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.281
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 895.0000
+
+     Potencia Total = 1.9610    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9609
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.194%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1502.3 PCM
+        RO/BETAEFF = -1.934 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.275
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 900.0000
+
+     Potencia Total = 1.9585    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9584
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.193%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1502.8 PCM
+        RO/BETAEFF = -1.934 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.278
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 905.0000
+
+     Potencia Total = 1.9561    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9560
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.192%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1503.2 PCM
+        RO/BETAEFF = -1.935 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.266
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 910.0000
+
+     Potencia Total = 1.9537    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9536
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.192%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1503.7 PCM
+        RO/BETAEFF = -1.936 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 915.0000
+
+     Potencia Total = 1.9513    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9512
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.191%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1504.3 PCM
+        RO/BETAEFF = -1.936 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.262
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 920.0000
+
+     Potencia Total = 1.9489    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9488
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.190%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1504.8 PCM
+        RO/BETAEFF = -1.937 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.258
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 925.0000
+
+     Potencia Total = 1.9465    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9465
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.189%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1505.4 PCM
+        RO/BETAEFF = -1.938 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.261
+Num Iteraciones: 196
+
+
+
+*****************************************************************
+Instante = 930.0000
+
+     Potencia Total = 1.9442    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9441
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.189%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1506.1 PCM
+        RO/BETAEFF = -1.939 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 935.0000
+
+     Potencia Total = 1.9418    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9418
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.187%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1506.7 PCM
+        RO/BETAEFF = -1.939 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.278
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 940.0000
+
+     Potencia Total = 1.9395    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9395
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.187%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1507.5 PCM
+        RO/BETAEFF = -1.940 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.298
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 945.0000
+
+     Potencia Total = 1.9372    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9372
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.186%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1508.2 PCM
+        RO/BETAEFF = -1.941 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.277
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 950.0000
+
+     Potencia Total = 1.9350    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9349
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.185%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1509.0 PCM
+        RO/BETAEFF = -1.942 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.264
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 955.0000
+
+     Potencia Total = 1.9327    
+Potencia neutrónica = 0.0001
+  Potencia Residual = 1.9326
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.183%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1509.9 PCM
+        RO/BETAEFF = -1.943 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 960.0000
+
+     Potencia Total = 1.9304    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9304
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.182%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1510.8 PCM
+        RO/BETAEFF = -1.945 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.260
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 965.0000
+
+     Potencia Total = 1.9282    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9282
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.181%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1511.8 PCM
+        RO/BETAEFF = -1.946 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.260
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 970.0000
+
+     Potencia Total = 1.9260    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9259
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.180%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1512.8 PCM
+        RO/BETAEFF = -1.947 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.259
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 975.0000
+
+     Potencia Total = 1.9238    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9237
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.178%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1513.9 PCM
+        RO/BETAEFF = -1.949 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.258
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 980.0000
+
+     Potencia Total = 1.9216    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9215
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.177%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1515.1 PCM
+        RO/BETAEFF = -1.950 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.264
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 985.0000
+
+     Potencia Total = 1.9194    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9194
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.175%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1516.3 PCM
+        RO/BETAEFF = -1.952 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.269
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 990.0000
+
+     Potencia Total = 1.9172    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9172
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.173%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1517.6 PCM
+        RO/BETAEFF = -1.953 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.292
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 995.0000
+
+     Potencia Total = 1.9151    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9150
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.172%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1519.0 PCM
+        RO/BETAEFF = -1.955 $
+
+
+Método Directo:
+Tiempo para iteraciones: 0.359
+Num Iteraciones: 194
+
+
+
+*****************************************************************
+Instante = 1000.0000
+
+     Potencia Total = 1.9129    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9129
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.170%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1520.4 PCM
+        RO/BETAEFF = -1.957 $
+
+
+
+*****************************************************************
+Instante = 1000.0000
+
+     Potencia Total = 1.9129    
+Potencia neutrónica = 0.0000
+  Potencia Residual = 1.9129
+    Factor de Forma = 2.080
+
+Derivada Logarítmica =     -1.170%
+
+Pot Esp Máxima: 0.005   en el canal:  45  trozo:   8
+       Reactividad = -1520.4 PCM
+        RO/BETAEFF = -1.957 $
+
+
+
+Tiempo (CPU) no estacionario  =      0.000 seg
+
+           Tiempo (CPU) total =     57.158 seg

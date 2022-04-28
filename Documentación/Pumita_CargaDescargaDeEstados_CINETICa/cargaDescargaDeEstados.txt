@@ -1,0 +1,5 @@
+Se comprobó que la carga y descarga de estados a un buffer de memoria no altera los resultados... En la carpeta resultados aparecen las entradas y salidas de dos corridas, una seguida, la otra deteniéndose a la mitad, haciendo una carga y descarga, y finalmente continuando. Se observa que los estados finales de ambas corridas son los mismos.
+
+----
+
+El comando cinética en opciones sirve para poner a TRUE la variable cinetica (que por defecto igual está a true). Si la opción no aparece en el archivo de entrada.. esta variable será puesta a FALSE. La variable CINETICA sólo debe de emplearse cuando se pretende hacer un cálculo cinético en algún momento de la corrida... si esta variable no se especifica, pretender hacer un cálculo cinético podría dar resultados incorrectos o no deseados, ya que varias de las variables necesarias para ello no estarían definidas. ---hay que eliminar esto...
